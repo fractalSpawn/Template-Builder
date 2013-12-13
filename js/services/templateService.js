@@ -41,7 +41,7 @@ ppdServices.service('templateService', ['$http', '$filter', '$upload', function(
 				});
 			};
 			// var url = 'http://localhost:3000/products/;
-			var url = 'js/products';
+			var url = 'js/products.json';
 			var promise = $http.get(url).then(onSuccess, onError);
 			return promise;
 		},
@@ -78,7 +78,7 @@ ppdServices.service('templateService', ['$http', '$filter', '$upload', function(
 				});
 			};
 			// var url = 'http://localhost:3000/products/'+id;
-			var url = 'js/single_product';
+			var url = 'js/single_product.json';
 			var promise = $http.get(url).then(onSuccess, onError);
 			return promise;
 		},
@@ -630,63 +630,6 @@ ppdServices.service('templateService', ['$http', '$filter', '$upload', function(
 				}
 			});
 		},
-
-		/**
-		 * @function		onPrintAreaFileSelect
-		 * @description		Handles uploads for print area images (cutout) using angular-file-upload
-		 * @author			Jacob
-		 * @params			files {array} The list of files from our upload field(s)
-		 * @returns			nothing
-		 */
-		onPrintAreaFileSelect: function(type, files){
-			// what to do during upload.
-			// requires angular-file-upload-shim to work
-			var onUploadProgress = function(evt){
-				var percent = ((evt.loaded / evt.total) * 100);
-				if(!templateService.xhrProgress[templateService.currentPerspective.id]){
-					templateService.xhrProgress[templateService.currentPerspective.id] = {};
-					templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id] = {};
-				}
-				if(!templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id][type]){
-					templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id][type] = 0;
-				}
-				templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id][type] = percent;
-				// when we're done with the loading, clear the value to clear the progress meter
-				if(percent === 100){
-					delete templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id][type];
-				}
-			};
-			// what to do on success
-			var onUploadSuccess = function(data, status, headers, config){
-				// we're using a switch here so we don't have to mess with the
-				// model to match whatever type (accent or bg) we want to set.
-				switch(type){
-					// add the name of our image as the background image in our perspective
-					case 'cutout': templateService.currentPrintArea.cutout = data.data; break;
-				}
-			};
-			// what to do if upload fails
-			var onUploadError = function(response, status, headers, config){
-				if(status === 500){ console.error("Error 500: Internal Server Error:\n", response); }
-				else{ console.log(status, response); }
-			};
-			
-			// loop through all files and upload 'em.
-			for(var i=0; i < files.length; i++){
-				var file = files[i];
-				$upload.upload({
-					url: "http://stage.creator.dabbleapp.internal/image/upload?qqfile=" + file.name,
-					method: "POST",
-					// data.qqfile is required for uploading to current system
-					data: { 'qqfile': file },
-					// file is required for angular file upload to work a intended
-					file: file
-				})
-				.progress(onUploadProgress)
-				.success(onUploadSuccess)
-				.error(onUploadError);
-			}
-		},
 		
 
 		/////////////////////////////////////////////////////////////////////////////
@@ -774,7 +717,7 @@ ppdServices.service('templateService', ['$http', '$filter', '$upload', function(
 					templateService.errorMsg = cause.message;
 				});
 			};
-			var url = 'js/'+type;
+			var url = 'js/'+type+'.json';
 			var promise = $http.get(url).then(onSuccess, onError);
 			return promise;
 		},
