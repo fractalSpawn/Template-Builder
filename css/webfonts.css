@@ -1,0 +1,1615 @@
+@font-face {
+	font-family: "28 Days Later";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/28_days_later.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "AachenLight";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/aachenlight-webfont.otf") format("opentype"),
+		url("../fonts/aachenlight-webfont.svg#AachenLightRegular") format("svg"),
+		url("../fonts/aachenlight-webfont.ttf") format("truetype"),
+		url("../fonts/aachenlight-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Aftermath";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/aftermat-webfont.otf") format("opentype"),
+		url("../fonts/aftermat-webfont.svg#Aftermathnormal") format("svg"),
+		url("../fonts/aftermat-webfont.ttf") format("truetype"),
+		url("../fonts/aftermat-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Ale and Wenches BB";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/aleawb__-webfont.otf") format("opentype"),
+		url("../fonts/aleawb__-webfont.svg#AleandWenchesBBRegular") format("svg"),
+		url("../fonts/aleawb__-webfont.ttf") format("truetype"),
+		url("../fonts/aleawb__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Alpha Beta BRK";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/alphbeta-webfont.otf") format("opentype"),
+		url("../fonts/alphbeta-webfont.svg#AlphaBetaBRKRegular") format("svg"),
+		url("../fonts/alphbeta-webfont.ttf") format("truetype"),
+		url("../fonts/alphbeta-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "AmerType Md BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/amrtypen-webfont.otf") format("opentype"),
+		url("../fonts/amrtypen-webfont.svg#AmerTypeMdBTMedium") format("svg"),
+		url("../fonts/amrtypen-webfont.ttf") format("truetype"),
+		url("../fonts/amrtypen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Anger";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/anger-webfont.otf") format("opentype"),
+		url("../fonts/anger-webfont.svg#AngerRegular") format("svg"),
+		url("../fonts/anger-webfont.ttf") format("truetype"),
+		url("../fonts/anger-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "ArbuckleFat";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/arbuckle-webfont.otf") format("opentype"),
+		url("../fonts/arbuckle-webfont.svg#ArbuckleFatRegular") format("svg"),
+		url("../fonts/arbuckle-webfont.ttf") format("truetype"),
+		url("../fonts/arbuckle-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Arcade Classic";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/arcade_classic-webfont.otf") format("opentype"),
+		url("../fonts/arcade_classic-webfont.svg#ArcadeClassicRegular") format("svg"),
+		url("../fonts/arcade_classic-webfont.ttf") format("truetype"),
+		url("../fonts/arcade_classic-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Arial Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/arial_bold-webfont.otf") format("opentype"),
+		url("../fonts/arial_bold-webfont.svg#ArialBold") format("svg"),
+		url("../fonts/arial_bold-webfont.ttf") format("truetype"),
+		url("../fonts/arial_bold-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Arial Black";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/ariblk-webfont.otf") format("opentype"),
+		url("../fonts/ariblk-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Arvigo";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/arvigo-webfont.otf") format("opentype"),
+		url("../fonts/arvigo-webfont.svg#ArvigoRegular") format("svg"),
+		url("../fonts/arvigo-webfont.ttf") format("truetype"),
+		url("../fonts/arvigo-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Aurora BdCn BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/aurorabc-webfont.otf") format("opentype"),
+		url("../fonts/aurorabc-webfont.svg#AuroraBold") format("svg"),
+		url("../fonts/aurorabc-webfont.ttf") format("truetype"),
+		url("../fonts/aurorabc-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Aurora Cn BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/aurorac-webfont.otf") format("opentype"),
+		url("../fonts/aurorac-webfont.svg#AuroraCnBTRegular") format("svg"),
+		url("../fonts/aurorac-webfont.ttf") format("truetype"),
+		url("../fonts/aurorac-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "AvantGarde Bk BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/avgardn-webfont.otf") format("opentype"),
+		url("../fonts/avgardn-webfont.svg#AvantGardeBkBTBook") format("svg"),
+		url("../fonts/avgardn-webfont.ttf") format("truetype"),
+		url("../fonts/avgardn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Baby Kruffy";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/babyk___-webfont.otf") format("opentype"),
+		url("../fonts/babyk___-webfont.svg#BabyKruffyRegular") format("svg"),
+		url("../fonts/babyk___-webfont.ttf") format("truetype"),
+		url("../fonts/babyk___-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Bardour";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bardour_-webfont.otf") format("opentype"),
+		url("../fonts/bardour_-webfont.svg#BardourRegular") format("svg"),
+		url("../fonts/bardour_-webfont.ttf") format("truetype"),
+		url("../fonts/bardour_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "BeatMyGuest";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/beatmygu-webfont.otf") format("opentype"),
+		url("../fonts/beatmygu-webfont.svg#BeatMyGuestRegular") format("svg"),
+		url("../fonts/beatmygu-webfont.ttf") format("truetype"),
+		url("../fonts/beatmygu-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Beatnik";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/beatnik-webfont.otf") format("opentype"),
+		url("../fonts/beatnik-webfont.svg#BeatnikPlain") format("svg"),
+		url("../fonts/beatnik-webfont.ttf") format("truetype"),
+		url("../fonts/beatnik-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "BeteNoirA";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/betenoir-webfont.otf") format("opentype"),
+		url("../fonts/betenoir-webfont.svg#BeteNoirARegular") format("svg"),
+		url("../fonts/betenoir-webfont.ttf") format("truetype"),
+		url("../fonts/betenoir-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Bisque";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bisque-webfont.otf") format("opentype"),
+		url("../fonts/bisque-webfont.svg#BisqueRegular") format("svg"),
+		url("../fonts/bisque-webfont.ttf") format("truetype"),
+		url("../fonts/bisque-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Blade Runner";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bladrmf_-webfont.otf") format("opentype"),
+		url("../fonts/bladrmf_-webfont.svg#BladeRunnerMovieFontRegular") format("svg"),
+		url("../fonts/bladrmf_-webfont.ttf") format("truetype"),
+		url("../fonts/bladrmf_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Blackletter686 BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/blklt686-webfont.otf") format("opentype"),
+		url("../fonts/blklt686-webfont.svg#Blackletter686BTRegular") format("svg"),
+		url("../fonts/blklt686-webfont.ttf") format("truetype"),
+		url("../fonts/blklt686-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Blueberry";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/blueberry-webfont.otf") format("opentype"),
+		url("../fonts/blueberry-webfont.svg#BlueberryRegular") format("svg"),
+		url("../fonts/blueberry-webfont.ttf") format("truetype"),
+		url("../fonts/blueberry-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Bonzai";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bonzai-webfont.otf") format("opentype"),
+		url("../fonts/bonzai-webfont.svg#BonzaiRegular") format("svg"),
+		url("../fonts/bonzai-webfont.ttf") format("truetype"),
+		url("../fonts/bonzai-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Bookworm";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bookworm-webfont.otf") format("opentype"),
+		url("../fonts/bookworm-webfont.svg#BookwormRegular") format("svg"),
+		url("../fonts/bookworm-webfont.ttf") format("truetype"),
+		url("../fonts/bookworm-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "BowlORama";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/bowlor__-webfont.otf") format("opentype"),
+		url("../fonts/bowlor__-webfont.svg#BowlORamaRegular") format("svg"),
+		url("../fonts/bowlor__-webfont.ttf") format("truetype"),
+		url("../fonts/bowlor__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Bernhard BdCn BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/brhrdbc-webfont.otf") format("opentype"),
+		url("../fonts/brhrdbc-webfont.svg#BernhardBdCnBTRegular") format("svg"),
+		url("../fonts/brhrdbc-webfont.ttf") format("truetype"),
+		url("../fonts/brhrdbc-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Budmo Jiggler";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/budmo-webfont.otf") format("opentype"),
+		url("../fonts/budmo-webfont.svg#BudmoJigglerRegular") format("svg"),
+		url("../fonts/budmo-webfont.ttf") format("truetype"),
+		url("../fonts/budmo-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Budmo Jiggler Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/budmob-webfont.otf") format("opentype"),
+		url("../fonts/budmob-webfont.svg#BudmoJigglerBold") format("svg"),
+		url("../fonts/budmob-webfont.ttf") format("truetype"),
+		url("../fonts/budmob-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Busorama Md BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/busoramm-webfont.otf") format("opentype"),
+		url("../fonts/busoramm-webfont.svg#BusoramaMdBTMedium") format("svg"),
+		url("../fonts/busoramm-webfont.ttf") format("truetype"),
+		url("../fonts/busoramm-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Cactus";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/cactuspe-webfont.otf") format("opentype"),
+		url("../fonts/cactuspe-webfont.svg#CactusPlain") format("svg"),
+		url("../fonts/cactuspe-webfont.ttf") format("truetype"),
+		url("../fonts/cactuspe-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Captain Podd";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/captainpodd-webfont.otf") format("opentype"),
+		url("../fonts/captainpodd-webfont.svg#CaptainPoddRegular") format("svg"),
+		url("../fonts/captainpodd-webfont.ttf") format("truetype"),
+		url("../fonts/captainpodd-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Celtic Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/celtbold-webfont.otf") format("opentype"),
+		url("../fonts/celtbold-webfont.svg#CelticBold") format("svg"),
+		url("../fonts/celtbold-webfont.ttf") format("truetype"),
+		url("../fonts/celtbold-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Cheltenhm BdCn BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/chltboc-webfont.otf") format("opentype"),
+		url("../fonts/chltboc-webfont.svg#CheltenhmBdCnBTBold") format("svg"),
+		url("../fonts/chltboc-webfont.ttf") format("truetype"),
+		url("../fonts/chltboc-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Cheltenhm BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/chlthmn-webfont.otf") format("opentype"),
+		url("../fonts/chlthmn-webfont.svg#CheltenhmBTRoman") format("svg"),
+		url("../fonts/chlthmn-webfont.ttf") format("truetype"),
+		url("../fonts/chlthmn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "CloisterBlack BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/cloistrk-webfont.otf") format("opentype"),
+		url("../fonts/cloistrk-webfont.svg#CloisterBlackBTRegular") format("svg"),
+		url("../fonts/cloistrk-webfont.ttf") format("truetype"),
+		url("../fonts/cloistrk-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Coin Locker Datura";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/coin_locker_datura-webfont.otf") format("opentype"),
+		url("../fonts/coin_locker_datura-webfont.svg#CoinLockerDaturaRegular") format("svg"),
+		url("../fonts/coin_locker_datura-webfont.ttf") format("truetype"),
+		url("../fonts/coin_locker_datura-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Coin Locker Datura Shadow";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/coin_locker_datura_shadow-webfont.otf") format("opentype"),
+		url("../fonts/coin_locker_datura_shadow-webfont.svg#CoinLockerDaturaShadowRegular") format("svg"),
+		url("../fonts/coin_locker_datura_shadow-webfont.ttf") format("truetype"),
+		url("../fonts/coin_locker_datura_shadow-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "College Black";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/colle3-webfont.otf") format("opentype"),
+		url("../fonts/colle3-webfont.svg#CollegeBlack") format("svg"),
+		url("../fonts/colle3-webfont.ttf") format("truetype"),
+		url("../fonts/colle3-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Collegiate Inside";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/colle4-webfont.otf") format("opentype"),
+		url("../fonts/colle4-webfont.svg#CollegiateInside") format("svg"),
+		url("../fonts/colle4-webfont.ttf") format("truetype"),
+		url("../fonts/colle4-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Collegiate Outside";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/colle5-webfont.otf") format("opentype"),
+		url("../fonts/colle5-webfont.svg#CollegiateOutside") format("svg"),
+		url("../fonts/colle5-webfont.ttf") format("truetype"),
+		url("../fonts/colle5-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Collegiate Regular";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/colle6-webfont.otf") format("opentype"),
+		url("../fonts/colle6-webfont.svg#CollegiateRegular") format("svg"),
+		url("../fonts/colle6-webfont.ttf") format("truetype"),
+		url("../fonts/colle6-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "College";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/college-webfont.otf") format("opentype"),
+		url("../fonts/college-webfont.svg#CollegeRegular") format("svg"),
+		url("../fonts/college-webfont.ttf") format("truetype"),
+		url("../fonts/college-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "College Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/collegeb-webfont.otf") format("opentype"),
+		url("../fonts/collegeb-webfont.svg#CollegeBold") format("svg"),
+		url("../fonts/collegeb-webfont.ttf") format("truetype"),
+		url("../fonts/collegeb-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "College Condensed";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/collegec-webfont.otf") format("opentype"),
+		url("../fonts/collegec-webfont.svg#CollegeCondensedRegular") format("svg"),
+		url("../fonts/collegec-webfont.ttf") format("truetype"),
+		url("../fonts/collegec-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "College Semi-Condensed";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/colleges-webfont.otf") format("opentype"),
+		url("../fonts/colleges-webfont.svg#CollegeSemicondensedRegular") format("svg"),
+		url("../fonts/colleges-webfont.ttf") format("truetype"),
+		url("../fonts/colleges-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Computerfont";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/computerfont-webfont.otf") format("opentype"),
+		url("../fonts/computerfont-webfont.svg#ComputerfontRegular") format("svg"),
+		url("../fonts/computerfont-webfont.ttf") format("truetype"),
+		url("../fonts/computerfont-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Coolvetica";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/coolvetica-webfont.otf") format("opentype"),
+		url("../fonts/coolvetica-webfont.svg#CoolveticaRegular") format("svg"),
+		url("../fonts/coolvetica-webfont.ttf") format("truetype"),
+		url("../fonts/coolvetica-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Copasetic";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/copaseti-webfont.otf") format("opentype"),
+		url("../fonts/copaseti-webfont.svg#CopaseticRegular") format("svg"),
+		url("../fonts/copaseti-webfont.ttf") format("truetype"),
+		url("../fonts/copaseti-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Cuprum";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/cuprum-webfont.otf") format("opentype"),
+		url("../fonts/cuprum-webfont.svg#CuprumRegular") format("svg"),
+		url("../fonts/cuprum-webfont.ttf") format("truetype"),
+		url("../fonts/cuprum-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "CurlyCue";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/curlycue-webfont.otf") format("opentype"),
+		url("../fonts/curlycue-webfont.svg#CurlyCueRegular") format("svg"),
+		url("../fonts/curlycue-webfont.ttf") format("truetype"),
+		url("../fonts/curlycue-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Dalek";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/dalek___-webfont.otf") format("opentype"),
+		url("../fonts/dalek___-webfont.svg#DalekRegular") format("svg"),
+		url("../fonts/dalek___-webfont.ttf") format("truetype"),
+		url("../fonts/dalek___-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Denial2";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/denl2r-webfont.otf") format("opentype"),
+		url("../fonts/denl2r-webfont.svg#Denial2Regular") format("svg"),
+		url("../fonts/denl2r-webfont.ttf") format("truetype"),
+		url("../fonts/denl2r-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Detectives Inc";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/detinc-webfont.otf") format("opentype"),
+		url("../fonts/detinc-webfont.svg#DetectivesIncRegular") format("svg"),
+		url("../fonts/detinc-webfont.ttf") format("truetype"),
+		url("../fonts/detinc-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Dimitri";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/dimitri_-webfont.otf") format("opentype"),
+		url("../fonts/dimitri_-webfont.svg#DimitriRegular") format("svg"),
+		url("../fonts/dimitri_-webfont.ttf") format("truetype"),
+		url("../fonts/dimitri_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "dotspecial";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/dotspeci-webfont.otf") format("opentype"),
+		url("../fonts/dotspeci-webfont.svg#dotspecialRegular") format("svg"),
+		url("../fonts/dotspeci-webfont.ttf") format("truetype"),
+		url("../fonts/dotspeci-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Droid Sans";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/droidsans-webfont.otf") format("opentype"),
+		url("../fonts/droidsans-webfont.svg#DroidSansRegular") format("svg"),
+		url("../fonts/droidsans-webfont.ttf") format("truetype"),
+		url("../fonts/droidsans-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Dynomite";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/dynomite-webfont.otf") format("opentype"),
+		url("../fonts/dynomite-webfont.svg#DynomiteRegular") format("svg"),
+		url("../fonts/dynomite-webfont.ttf") format("truetype"),
+		url("../fonts/dynomite-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Dynomite Spark";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/dynos___-webfont.otf") format("opentype"),
+		url("../fonts/dynos___-webfont.svg#DynomiteSpark") format("svg"),
+		url("../fonts/dynos___-webfont.ttf") format("truetype"),
+		url("../fonts/dynos___-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "EckmannD";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/eckmannn-webfont.otf") format("opentype"),
+		url("../fonts/eckmannn-webfont.svg#EckmannDRegular") format("svg"),
+		url("../fonts/eckmannn-webfont.ttf") format("truetype"),
+		url("../fonts/eckmannn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Elementric";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/element-webfont.otf") format("opentype"),
+		url("../fonts/element-webfont.svg#ElementricNormal") format("svg"),
+		url("../fonts/element-webfont.ttf") format("truetype"),
+		url("../fonts/element-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Elric";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/elric-webfont.otf") format("opentype"),
+		url("../fonts/elric-webfont.svg#ElricBold") format("svg"),
+		url("../fonts/elric-webfont.ttf") format("truetype"),
+		url("../fonts/elric-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Engravers Old English BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/engrolen-webfont.otf") format("opentype"),
+		url("../fonts/engrolen-webfont.svg#EngrvrsOldEngBTRegular") format("svg"),
+		url("../fonts/engrolen-webfont.ttf") format("truetype"),
+		url("../fonts/engrolen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Erotokritos";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/erotokritos-webfont.otf") format("opentype"),
+		url("../fonts/erotokritos-webfont.svg#ErotokritosRegular") format("svg"),
+		url("../fonts/erotokritos-webfont.ttf") format("truetype"),
+		url("../fonts/erotokritos-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Faerie";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/faerie__-webfont.otf") format("opentype"),
+		url("../fonts/faerie__-webfont.svg#FaerieRegular") format("svg"),
+		url("../fonts/faerie__-webfont.ttf") format("truetype"),
+		url("../fonts/faerie__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Floydian";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/floyd-webfont.otf") format("opentype"),
+		url("../fonts/floyd-webfont.svg#FloydianNormal") format("svg"),
+		url("../fonts/floyd-webfont.ttf") format("truetype"),
+		url("../fonts/floyd-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "ForgottenFuturistCollege";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/forgotty-webfont.otf") format("opentype"),
+		url("../fonts/forgotty-webfont.svg#ForgottenFuturistCollegeRg") format("svg"),
+		url("../fonts/forgotty-webfont.ttf") format("truetype"),
+		url("../fonts/forgotty-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "FrizQuadrata";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/frzquadn-webfont.otf") format("opentype"),
+		url("../fonts/frzquadn-webfont.svg#FrizQuadrataBTRoman") format("svg"),
+		url("../fonts/frzquadn-webfont.ttf") format("truetype"),
+		url("../fonts/frzquadn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Futura Extended";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/futuram-webfont.otf") format("opentype"),
+		url("../fonts/futuram-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Ancient Geek";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/geek-webfont.otf") format("opentype"),
+		url("../fonts/geek-webfont.svg#AncientGeekRegular") format("svg"),
+		url("../fonts/geek-webfont.ttf") format("truetype"),
+		url("../fonts/geek-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Glaser Setencil D";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/glaser_stencil_d-webfont.otf") format("opentype"),
+		url("../fonts/glaser_stencil_d-webfont.svg#GlaserStencilDRegular") format("svg"),
+		url("../fonts/glaser_stencil_d-webfont.ttf") format("truetype"),
+		url("../fonts/glaser_stencil_d-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "GoudyOlSt XBd BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/goudosxb-webfont.otf") format("opentype"),
+		url("../fonts/goudosxb-webfont.svg#GoudyOlStXBdBTExtraBold") format("svg"),
+		url("../fonts/goudosxb-webfont.ttf") format("truetype"),
+		url("../fonts/goudosxb-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "GoudyOlSt BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/goudyosn-webfont.otf") format("opentype"),
+		url("../fonts/goudyosn-webfont.svg#GoudyOlStBTRoman") format("svg"),
+		url("../fonts/goudyosn-webfont.ttf") format("truetype"),
+		url("../fonts/goudyosn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/helveticaneue-webfont.otf") format("opentype"),
+		url("../fonts/helveticaneue-webfont.svg#HelveticaNeueW0155RomanRg") format("svg"),
+		url("../fonts/helveticaneue-webfont.ttf") format("truetype"),
+		url("../fonts/helveticaneue-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Helvetica Neue Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/helveticaneuebold-webfont.otf") format("opentype"),
+		url("../fonts/helveticaneuebold-webfont.svg#HelveticaNeueBold") format("svg"),
+		url("../fonts/helveticaneuebold-webfont.ttf") format("truetype"),
+		url("../fonts/helveticaneuebold-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Hip 20s";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/hip20-webfont.otf") format("opentype"),
+		url("../fonts/hip20-webfont.svg#PPHip20sRegular") format("svg"),
+		url("../fonts/hip20-webfont.ttf") format("truetype"),
+		url("../fonts/hip20-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "HoratioDMed";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/horatiom-webfont.otf") format("opentype"),
+		url("../fonts/horatiom-webfont.svg#HoratioDMedRegular") format("svg"),
+		url("../fonts/horatiom-webfont.ttf") format("truetype"),
+		url("../fonts/horatiom-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Huxley";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/huxley-webfont.otf") format("opentype"),
+		url("../fonts/huxley-webfont.svg#HuxleyRegular") format("svg"),
+		url("../fonts/huxley-webfont.ttf") format("truetype"),
+		url("../fonts/huxley-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Hyperion Sunset";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/hyperion-webfont.otf") format("opentype"),
+		url("../fonts/hyperion-webfont.svg#HyperionSunsetBRKRegular") format("svg"),
+		url("../fonts/hyperion-webfont.ttf") format("truetype"),
+		url("../fonts/hyperion-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Impact";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/impact-webfont.otf") format("opentype"),
+		url("../fonts/impact-webfont.svg#ImpactRegular") format("svg"),
+		url("../fonts/impact-webfont.ttf") format("truetype"),
+		url("../fonts/impact-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/inconsolata-webfont.otf") format("opentype"),
+		url("../fonts/inconsolata-webfont.svg#InconsolataMedium") format("svg"),
+		url("../fonts/inconsolata-webfont.ttf") format("truetype"),
+		url("../fonts/inconsolata-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Ireland";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/irelandn-webfont.otf") format("opentype"),
+		url("../fonts/irelandn-webfont.svg#IrelandRegular") format("svg"),
+		url("../fonts/irelandn-webfont.ttf") format("truetype"),
+		url("../fonts/irelandn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "JackLantern BB";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/jacklb__-webfont.otf") format("opentype"),
+		url("../fonts/jacklb__-webfont.svg#JackLanternBBRegular") format("svg"),
+		url("../fonts/jacklb__-webfont.ttf") format("truetype"),
+		url("../fonts/jacklb__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Janda Snickerdoodle";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/jandasnickerdoodleserifbold-webfont.otf") format("opentype"),
+		url("../fonts/jandasnickerdoodleserifbold-webfont.svg#JandaSnickerdoodleSerifBold") format("svg"),
+		url("../fonts/jandasnickerdoodleserifbold-webfont.ttf") format("truetype"),
+		url("../fonts/jandasnickerdoodleserifbold-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Jersey Letters";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/jerseyletters-webfont.otf") format("opentype"),
+		url("../fonts/jerseyletters-webfont.svg#JerseyLettersRegular") format("svg"),
+		url("../fonts/jerseyletters-webfont.ttf") format("truetype"),
+		url("../fonts/jerseyletters-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Josefin Sans Std";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/josefinsansstd-light-webfont.otf") format("opentype"),
+		url("../fonts/josefinsansstd-light-webfont.svg#JosefinSansStdRegular") format("svg"),
+		url("../fonts/josefinsansstd-light-webfont.ttf") format("truetype"),
+		url("../fonts/josefinsansstd-light-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kabel Bd";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kabelbn-webfont.otf") format("opentype"),
+		url("../fonts/kabelbn-webfont.svg#KabelBdBold") format("svg"),
+		url("../fonts/kabelbn-webfont.ttf") format("truetype"),
+		url("../fonts/kabelbn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kabel Dm BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kabeld-webfont.otf") format("opentype"),
+		url("../fonts/kabeld-webfont.svg#KabelDmBTDemi") format("svg"),
+		url("../fonts/kabeld-webfont.ttf") format("truetype"),
+		url("../fonts/kabeld-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kabel Md BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kabelm-webfont.otf") format("opentype"),
+		url("../fonts/kabelm-webfont.svg#KabelMdBTMedium") format("svg"),
+		url("../fonts/kabelm-webfont.ttf") format("truetype"),
+		url("../fonts/kabelm-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kabel Bk BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kabeln-webfont.otf") format("opentype"),
+		url("../fonts/kabeln-webfont.svg#KabelBkBTBook") format("svg"),
+		url("../fonts/kabeln-webfont.ttf") format("truetype"),
+		url("../fonts/kabeln-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kabel Ult BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kabelu-webfont.otf") format("opentype"),
+		url("../fonts/kabelu-webfont.svg#KabelUltBTUltra") format("svg"),
+		url("../fonts/kabelu-webfont.ttf") format("truetype"),
+		url("../fonts/kabelu-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kameleon";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kameleon-webfont.otf") format("opentype"),
+		url("../fonts/kameleon-webfont.svg#KameleonRegular") format("svg"),
+		url("../fonts/kameleon-webfont.ttf") format("truetype"),
+		url("../fonts/kameleon-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Kells98";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/kells98-webfont.otf") format("opentype"),
+		url("../fonts/kells98-webfont.ttf") format("truetype"),
+		url("../fonts/kells98-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Lestat";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lestat-webfont.otf") format("opentype"),
+		url("../fonts/lestat-webfont.svg#LestatRegular") format("svg"),
+		url("../fonts/lestat-webfont.ttf") format("truetype"),
+		url("../fonts/lestat-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Libra BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/libran-webfont.otf") format("opentype"),
+		url("../fonts/libran-webfont.svg#LibraRegular") format("svg"),
+		url("../fonts/libran-webfont.ttf") format("truetype"),
+		url("../fonts/libran-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Lobster";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lobster-webfont.otf") format("opentype"),
+		url("../fonts/lobster-webfont.svg#Lobster1.4Regular") format("svg"),
+		url("../fonts/lobster-webfont.ttf") format("truetype"),
+		url("../fonts/lobster-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Lochen";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lochen__-webfont.otf") format("opentype"),
+		url("../fonts/lochen__-webfont.svg#LochenRegular") format("svg"),
+		url("../fonts/lochen__-webfont.ttf") format("truetype"),
+		url("../fonts/lochen__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LS Cooper Blk";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/ls_cooper_black-webfont.otf") format("opentype"),
+		url("../fonts/ls_cooper_black-webfont.svg#LSCooperBlkBlack") format("svg"),
+		url("../fonts/ls_cooper_black-webfont.ttf") format("truetype"),
+		url("../fonts/ls_cooper_black-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "ITC Lubalin Graph Std";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lubalingraphstd-demi-webfont.otf") format("opentype"),
+		url("../fonts/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi") format("svg"),
+		url("../fonts/lubalingraphstd-demi-webfont.ttf") format("truetype"),
+		url("../fonts/lubalingraphstd-demi-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Luciferius";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lucifer_-webfont.otf") format("opentype"),
+		url("../fonts/lucifer_-webfont.svg#") format("svg"),
+		url("../fonts/lucifer_-webfont.ttf") format("truetype"),
+		url("../fonts/lucifer_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "LunacyMore";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/lunacymore-webfont.otf") format("opentype"),
+		url("../fonts/lunacymore-webfont.svg#LunacyMoreRegular") format("svg"),
+		url("../fonts/lunacymore-webfont.ttf") format("truetype"),
+		url("../fonts/lunacymore-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Mabella";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/mabella-webfont.otf") format("opentype"),
+		url("../fonts/mabella-webfont.svg#MabellaRegular") format("svg"),
+		url("../fonts/mabella-webfont.ttf") format("truetype"),
+		url("../fonts/mabella-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Machine BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/machine_bt-webfont.otf") format("opentype"),
+		url("../fonts/machine_bt-webfont.svg#MachineBTRegular") format("svg"),
+		url("../fonts/machine_bt-webfont.ttf") format("truetype"),
+		url("../fonts/machine_bt-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Madison Square Incised";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/madisi__-webfont.otf") format("opentype"),
+		url("../fonts/madisi__-webfont.svg#MadisonSquareIncised") format("svg"),
+		url("../fonts/madisi__-webfont.ttf") format("truetype"),
+		url("../fonts/madisi__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Magnum";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/magnum__-webfont.otf") format("opentype"),
+		url("../fonts/magnum__-webfont.svg#MagnumRegular") format("svg"),
+		url("../fonts/magnum__-webfont.ttf") format("truetype"),
+		url("../fonts/magnum__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "MariageD";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/mariagen-webfont.otf") format("opentype"),
+		url("../fonts/mariagen-webfont.svg#MariageDRegular") format("svg"),
+		url("../fonts/mariagen-webfont.ttf") format("truetype"),
+		url("../fonts/mariagen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Maximillion";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/maximill-webfont.otf") format("opentype"),
+		url("../fonts/maximill-webfont.ttf") format("truetype"),
+		url("../fonts/maximill-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Musicals";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/musicals-webfont.otf") format("opentype"),
+		url("../fonts/musicals-webfont.svg#MusicalsRegular") format("svg"),
+		url("../fonts/musicals-webfont.ttf") format("truetype"),
+		url("../fonts/musicals-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Neucha";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/neucha-webfont.otf") format("opentype"),
+		url("../fonts/neucha-webfont.svg#NeuchaRegular") format("svg"),
+		url("../fonts/neucha-webfont.ttf") format("truetype"),
+		url("../fonts/neucha-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "NotCourierSans";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/notcouriersans-webfont.otf") format("opentype"),
+		url("../fonts/notcouriersans-webfont.svg#notcouriersansregular") format("svg"),
+		url("../fonts/notcouriersans-webfont.ttf") format("truetype"),
+		url("../fonts/notcouriersans-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Oktoberfest";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/oktoberfest-webfont.otf") format("opentype"),
+		url("../fonts/oktoberfest-webfont.svg#OktoberfestRegular") format("svg"),
+		url("../fonts/oktoberfest-webfont.ttf") format("truetype"),
+		url("../fonts/oktoberfest-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Papyrus LET";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/papyrus-webfont.otf") format("opentype"),
+		url("../fonts/papyrus-webfont.svg#PapyrusLETPlain") format("svg"),
+		url("../fonts/papyrus-webfont.ttf") format("truetype"),
+		url("../fonts/papyrus-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Playbill BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/playbiln-webfont.otf") format("opentype"),
+		url("../fonts/playbiln-webfont.svg#PlaybillRegular") format("svg"),
+		url("../fonts/playbiln-webfont.ttf") format("truetype"),
+		url("../fonts/playbiln-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Poophead";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/poophead-webfont.otf") format("opentype"),
+		url("../fonts/poophead-webfont.svg#PoopheadNormal") format("svg"),
+		url("../fonts/poophead-webfont.ttf") format("truetype"),
+		url("../fonts/poophead-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Pythia";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/pythia-webfont.otf") format("opentype"),
+		url("../fonts/pythia-webfont.svg#PythiaRegular") format("svg"),
+		url("../fonts/pythia-webfont.ttf") format("truetype"),
+		url("../fonts/pythia-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Reenie Beenie";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/reeniebeanie-webfont.otf") format("opentype"),
+		url("../fonts/reeniebeanie-webfont.svg#ReenieBeanieRegular") format("svg"),
+		url("../fonts/reeniebeanie-webfont.ttf") format("truetype"),
+		url("../fonts/reeniebeanie-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Revue BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/revuen-webfont.otf") format("opentype"),
+		url("../fonts/revuen-webfont.svg#RevueRegular") format("svg"),
+		url("../fonts/revuen-webfont.ttf") format("truetype"),
+		url("../fonts/revuen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Rival";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/rival-webfont.otf") format("opentype"),
+		url("../fonts/rival-webfont.svg#RivalRegular") format("svg"),
+		url("../fonts/rival-webfont.ttf") format("truetype"),
+		url("../fonts/rival-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Rivanna";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/rivanna_-webfont.otf") format("opentype"),
+		url("../fonts/rivanna_-webfont.svg#RivannaRegular") format("svg"),
+		url("../fonts/rivanna_-webfont.ttf") format("truetype"),
+		url("../fonts/rivanna_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Rubber Stamp LET";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/rubstamp-webfont.otf") format("opentype"),
+		url("../fonts/rubstamp-webfont.svg#RubberStampLETPlain") format("svg"),
+		url("../fonts/rubstamp-webfont.ttf") format("truetype"),
+		url("../fonts/rubstamp-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Samarkan";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/samarn__-webfont.otf") format("opentype"),
+		url("../fonts/samarn__-webfont.svg#SamarkanNormal") format("svg"),
+		url("../fonts/samarn__-webfont.ttf") format("truetype"),
+		url("../fonts/samarn__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Samarkan Oblique";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/samaro__-webfont.otf") format("opentype"),
+		url("../fonts/samaro__-webfont.svg#SamarkanOblique") format("svg"),
+		url("../fonts/samaro__-webfont.ttf") format("truetype"),
+		url("../fonts/samaro__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Seized Future";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/seized_future-webfont.otf") format("opentype"),
+		url("../fonts/seized_future-webfont.svg#SeizedFutureRegular") format("svg"),
+		url("../fonts/seized_future-webfont.ttf") format("truetype"),
+		url("../fonts/seized_future-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "SpacedocStencil";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/spacedock_stencil-webfont.otf") format("opentype"),
+		url("../fonts/spacedock_stencil-webfont.svg#SpacedockStencilRegular") format("svg"),
+		url("../fonts/spacedock_stencil-webfont.ttf") format("truetype"),
+		url("../fonts/spacedock_stencil-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stampful";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stampful.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Stencilcase Bold";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stenb___-webfont.otf") format("opentype"),
+		url("../fonts/stenb___-webfont.svg#StencilcaseBold") format("svg"),
+		url("../fonts/stenb___-webfont.ttf") format("truetype"),
+		url("../fonts/stenb___-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stencil Export";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stenc_ex-webfont.otf") format("opentype"),
+		url("../fonts/stenc_ex-webfont.svg#StencilExportRegular") format("svg"),
+		url("../fonts/stenc_ex-webfont.ttf") format("truetype"),
+		url("../fonts/stenc_ex-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Sencilcase";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stencilc-webfont.otf") format("opentype"),
+		url("../fonts/stencilc-webfont.svg#StencilcaseRegular") format("svg"),
+		url("../fonts/stencilc-webfont.ttf") format("truetype"),
+		url("../fonts/stencilc-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stencil Four";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stenf___-webfont.otf") format("opentype"),
+		url("../fonts/stenf___-webfont.svg#StencilFourRegular") format("svg"),
+		url("../fonts/stenf___-webfont.ttf") format("truetype"),
+		url("../fonts/stenf___-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stencil Four Reversed";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stenfr__-webfont.otf") format("opentype"),
+		url("../fonts/stenfr__-webfont.svg#StencilFourReversedRegular") format("svg"),
+		url("../fonts/stenfr__-webfont.ttf") format("truetype"),
+		url("../fonts/stenfr__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stencil Gothic JL";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stnclgot-webfont.otf") format("opentype"),
+		url("../fonts/stnclgot-webfont.svg#StencilGothicJLRegular") format("svg"),
+		url("../fonts/stnclgot-webfont.ttf") format("truetype"),
+		url("../fonts/stnclgot-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Stonehenge";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/stonehen-webfont.otf") format("opentype"),
+		url("../fonts/stonehen-webfont.svg#StonehengeRegular") format("svg"),
+		url("../fonts/stonehen-webfont.ttf") format("truetype"),
+		url("../fonts/stonehen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tangerine";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tangerine_regular-webfont.otf") format("opentype"),
+		url("../fonts/tangerine_regular-webfont.svg#TangerineRegular") format("svg"),
+		url("../fonts/tangerine_regular-webfont.ttf") format("truetype"),
+		url("../fonts/tangerine_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tango BT";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tangon-webfont.otf") format("opentype"),
+		url("../fonts/tangon-webfont.svg#TangoRegular") format("svg"),
+		url("../fonts/tangon-webfont.ttf") format("truetype"),
+		url("../fonts/tangon-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tattoo Lettering Black";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tattooletteringblack-webfont.otf") format("opentype"),
+		url("../fonts/tattooletteringblack-webfont.svg#TattooLetteringBlackRegular") format("svg"),
+		url("../fonts/tattooletteringblack-webfont.ttf") format("truetype"),
+		url("../fonts/tattooletteringblack-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tattoo Lettering Open";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tattooletteringopen-webfont.otf") format("opentype"),
+		url("../fonts/tattooletteringopen-webfont.svg#TattooLetteringOpenRegular") format("svg"),
+		url("../fonts/tattooletteringopen-webfont.ttf") format("truetype"),
+		url("../fonts/tattooletteringopen-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tidy Curve TV";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tidy_curve_tv-webfont.otf") format("opentype"),
+		url("../fonts/tidy_curve_tv-webfont.svg#TidyCurveTVRegular") format("svg"),
+		url("../fonts/tidy_curve_tv-webfont.ttf") format("truetype"),
+		url("../fonts/tidy_curve_tv-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Tribeca";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tribeca_-webfont.otf") format("opentype"),
+		url("../fonts/tribeca_-webfont.svg#TribecaRegular") format("svg"),
+		url("../fonts/tribeca_-webfont.ttf") format("truetype"),
+		url("../fonts/tribeca_-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "TVNordEFOP";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/tvnordefop-regular-webfont.otf") format("opentype"),
+		url("../fonts/tvnordefop-regular-webfont.svg#TVNordEFOP-Regular") format("svg"),
+		url("../fonts/tvnordefop-regular-webfont.ttf") format("truetype"),
+		url("../fonts/tvnordefop-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Two For Juan";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/twofjn__-webfont.otf") format("opentype"),
+		url("../fonts/twofjn__-webfont.svg#TwoForJuanNFRegular") format("svg"),
+		url("../fonts/twofjn__-webfont.ttf") format("truetype"),
+		url("../fonts/twofjn__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Viking";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/vikingn-webfont.otf") format("opentype"),
+		url("../fonts/vikingn-webfont.svg#VikingRegular") format("svg"),
+		url("../fonts/vikingn-webfont.ttf") format("truetype"),
+		url("../fonts/vikingn-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Weltron Special Power";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/weltsp__-webfont.otf") format("opentype"),
+		url("../fonts/weltsp__-webfont.svg#WeltronSpecialPowerRegular") format("svg"),
+		url("../fonts/weltsp__-webfont.ttf") format("truetype"),
+		url("../fonts/weltsp__-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Wide Awake Black";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/wide_awake_black-webfont.otf") format("opentype"),
+		url("../fonts/wide_awake_black-webfont.svg#WideawakeBlackRegular") format("svg"),
+		url("../fonts/wide_awake_black-webfont.ttf") format("truetype"),
+		url("../fonts/wide_awake_black-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Wide Awake";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/wide_awake-webfont.otf") format("opentype"),
+		url("../fonts/wide_awake-webfont.svg#WideawakeRegular") format("svg"),
+		url("../fonts/wide_awake-webfont.ttf") format("truetype"),
+		url("../fonts/wide_awake-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Yanone Kaffeesatz";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/yanonekaffeesatz-regular-webfont.otf") format("opentype"),
+		url("../fonts/yanonekaffeesatz-regular-webfont.svg#YanoneKaffeesatzRegular") format("svg"),
+		url("../fonts/yanonekaffeesatz-regular-webfont.ttf") format("truetype"),
+		url("../fonts/yanonekaffeesatz-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Yold Anglican";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/yoldanglican-webfont.otf") format("opentype"),
+		url("../fonts/yoldanglican-webfont.svg#YoldAnglicanRegular") format("svg"),
+		url("../fonts/yoldanglican-webfont.ttf") format("truetype"),
+		url("../fonts/yoldanglican-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Yorstat";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	src: url("../fonts/yor-webfont.otf") format("opentype"),
+		url("../fonts/yor-webfont.svg#YorstatRegular") format("svg"),
+		url("../fonts/yor-webfont.ttf") format("truetype"),
+		url("../fonts/yor-webfont.woff") format("woff");
+}

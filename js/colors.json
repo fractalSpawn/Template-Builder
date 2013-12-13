@@ -1,0 +1,155 @@
+[
+    {
+        "specifics": {
+            "hex": "#FFFFFF"
+        },
+        "mapping": [
+            {
+                "alias": "Snow", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Blanc", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "White", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#000000"
+        }, 
+        "mapping": [
+            {
+                "alias": "Coal", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Noir", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Black", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#AA0000"
+        }, 
+        "mapping": [
+            {
+                "alias": "Candy Apple", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Rouge", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Red", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#DD7D00"
+        }, 
+        "mapping": [
+            {
+                "alias": "Citrus", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Blanc", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Orange", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#DDDD00"
+        }, 
+        "mapping": [
+            {
+                "alias": "Sunshine", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Jaune", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Yellow", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#00AA00"
+        }, 
+        "mapping": [
+            {
+                "alias": "Grass", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Vert", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Green", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#1133DD"
+        }, 
+        "mapping": [
+            {
+                "alias": "Deep Ocean", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Bleu", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Blue", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#4B0082"
+        }, 
+        "mapping": [
+            {
+                "alias": "Iris", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Indigo", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Indigo", 
+        "type": "colors"
+    }, 
+    {
+        "specifics": {
+            "hex": "#8F00FF"
+        }, 
+        "mapping": [
+            {
+                "alias": "Purple", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "Violet", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Violet", 
+        "type": "colors"
+    }
+]

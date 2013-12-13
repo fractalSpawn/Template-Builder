@@ -1,0 +1,51 @@
+<div class="row" ng-show="templateService.availableAttributes.colors">
+	<div class="small-12 medium-2 columns">
+		<label>Colors:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<small>This list of colors is used during building templates and allows a builder to select which colors are available for use in the template.</small>
+		<div class="panel" style="max-height:500px;overflow:auto;">
+			<div class="row" ng-class="{new:templateService.attributeIsNew('colors', color)}"
+				ng-repeat="color in templateService.availableAttributes.colors | filterByFulfillment:templateService.currentTemplate.partner | orderBy:'+name'">
+				<div class="small-3 columns">{{color.name}}</div>
+				<div class="small-2 columns">{{color.specifics.hex}}</div>
+				<div class="small-2 columns">{{color.specifics.accentHex}}</div>
+				<div class="small-2 columns">{{color.specifics.laserEtchHex}}</div>
+				<div class="small-3 columns text-right">
+					<span ng-show="templateService.attributeIsNew('colors', color)">
+						<button class="button tiny" ng-click="templateService.addTemplateAttribute('colors', color)">
+							<i class="fi-plus"></i> Add
+						</button>
+					</span>
+					<span ng-show="templateService.attributeIsDefault('colors', color)">
+						<button class="button tiny disabled">
+							<i class="fi-star"></i>
+						</button>
+					</span>
+					<span ng-show="!templateService.attributeIsNew('colors', color) && !templateService.attributeIsDefault('colors', color)">
+						<button class="button tiny"
+							ng-class="{success:templateService.attributeIsSupported('colors', color)}"
+							ng-click="templateService.toggleAttributeSupport('colors', color)">
+							<i class="fi-plus" ng-hide="templateService.attributeIsSupported('colors', color)"></i>
+							<i class="fi-check" ng-show="templateService.attributeIsSupported('colors', color)"></i>
+						</button>
+					</span>
+				</div>
+			</div>
+			<div class="row" ng-show="templateService.deprecatedAttributes.colors.length">
+				<div class="small-12 columns">
+					<small class="error">The following colors are no longer available and can be removed.</small>
+				</div>
+			</div>
+			<div class="row deprecated" ng-repeat="color in templateService.deprecatedAttributes.colors | orderBy:'+name'">
+				<div class="small-4 columns">{{color.name}}</div>
+				<div class="small-6 columns"><small>Cannot be fulfilled by "{{templateService.currentTemplate.partner}}"</small></div>
+				<div class="small-2 columns text-right">
+					<button class="button tiny secondary" ng-click="templateService.removeTemplateAttribute('colors', color)">
+						<i class="fi-x"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

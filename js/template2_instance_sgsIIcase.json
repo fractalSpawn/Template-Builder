@@ -1,0 +1,54 @@
+{
+	"name": "Samsung Galaxy SII Case",
+	"description": "A case for the Samsung Galaxy SII.",
+	"internalSKU": "INT23456",
+	"cost": 9.99,
+	"wholesale": 14.99,
+	"msrp": 24.99,
+	"tags": [
+		"Cases",
+		"Galaxy SII"
+	],
+	"defaultColor": "#000000",
+	"defaultFFPartnerId": "partner_01",
+	"options": {
+		"colors": [{
+			"name": "White",
+			"hex": "#ffffff"
+		},{
+			"name": "Black",
+			"hex": "#000000"
+		},{
+			"name": "Aqua",
+			"hex": "#00aaff"
+		},{
+			"name": "Orange",
+			"hex": "#ff6600"
+		}]
+	},
+	"perspectives": [{
+		"id": "perspective_0",
+		"name": "Back",
+		"resolution": 100,
+		"scale": 100,
+		"unit": "inch",
+		"enabled": true,
+		"supported": true,
+		"bgImage": "http:\/\/localhost\/sandbox\/dabble-creator\/client\/images\/sgsII_bgImage.png",
+		"printAreas": [{
+			"id": "area_0",
+			"name": "Back Case",
+			"x": 4,
+			"y": 0.9,
+			"width": 12,
+			"height": 22,
+			"safearea": 0,
+			"enabled": true,
+			"supported": true,
+			"unit": "inch",
+			"price": 0,
+			"textureImage": "http:\/\/localhost\/sandbox\/dabble-creator\/client\/images\/sgsII_texture.png",
+			"cutoutMask": "http:\/\/localhost\/sandbox\/dabble-creator\/client\/images\/sgsII_mask.png"
+		}]
+	}]
+}

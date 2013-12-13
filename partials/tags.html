@@ -1,0 +1,16 @@
+<div>
+	<div class="row collapse">
+		<div class="small-9 columns">
+			<input type="text" class="input-medium appendedInput" ng-model="tagString" />
+		</div>
+		<div class="small-3 columns">
+			<button class="button postfix" ng-click="addTag()">Add Tags</button>
+		</div>
+	</div>
+	<ul class="no-bullet">
+		<li ng-repeat="tag in templateService.currentTemplate.tags" ng-click="makeEditable(this)">
+			{{tag}}
+			<a ng-click="removeTag($index)"><i class="fi-x"></i></a>
+		</li>
+	</ul>
+</div>

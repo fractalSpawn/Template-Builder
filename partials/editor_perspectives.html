@@ -1,0 +1,109 @@
+<div class="row" ng-hide="templateService.currentTemplate.perspectives">
+	<div class="small-10 small-offset-2 columns">
+		<small class="warning">A template should have at least one perspective. <a href="#" ng-click="templateService.addPerspective()">Add one now!</a></small>
+	</div>
+</div>
+<div class="row" ng-show="templateService.currentTemplate.perspectives">
+	<div class="small-12 medium-2 columns">
+		<label>Pers. List:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<div class="panel">
+			<perspective-list icon-width="70" icon-height="84"></perspective-list>
+		</div>
+	</div>
+</div>
+<div class="row" ng-show="templateService.currentTemplate.perspectives">
+	<div class="small-12 medium-2 columns">
+		<label>Perspectives:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<div class="panel">
+			<div class="perspectiveItem" ng-class="{currentPerspective:pers===templateService.currentPerspective}">
+				<div class="row">
+					<div class="small-6 columns" >
+						<label>Perspective Name:</label>
+						<input type="text" ng-model="templateService.currentPerspective.name" />
+					</div>
+					<div class="small-3 columns">
+						<label>Resolution:</label>
+						<input type="number" ng-model="templateService.currentPerspective.resolution" />
+					</div>
+					<div class="small-3 columns">
+						<label>Scale:</label>
+						<input type="number" ng-model="templateService.currentPerspective.scale" />
+					</div>
+					<div class="small-12 columns">
+						<label>Perspective Image:</label>
+						<div class="progress" ng-show="templateService.xhrProgress[templateService.currentPerspective.id].background">
+							<span class="meter" style="width:{{templateService.xhrProgress[templateService.currentPerspective.id].background}}%"></span>
+						</div>
+						<input type="file"
+							ng-hide="templateService.xhrProgress[templateService.currentPerspective.id].background"
+							ng-file-select="onPerspectiveFileSelect('background', $files)"
+							ng-class="{warning:!templateService.currentPerspective.background}"
+							required />
+						<small class="warning" ng-hide="templateService.currentPerspective.background">A perspective image is strongly recommended!</small>
+					</div>
+					<div class="small-8 columns">
+						<label>Accent Image:</label>
+						<div class="progress" ng-show="templateService.xhrProgress[templateService.currentPerspective.id].accent">
+							<span class="meter" style="width:{{templateService.xhrProgress[templateService.currentPerspective.id].accent}}%"></span>
+						</div>
+						<input type="file"
+							ng-hide="templateService.xhrProgress[templateService.currentPerspective.id].accent"
+							ng-file-select="onPerspectiveFileSelect('accent', $files)" />
+					</div>
+					<div class="small-4 columns">
+						<label>Availability:</label>
+						<button class="button tiny"
+							ng-class="{secondary:!templateService.currentPerspective.supported, success:templateService.currentPerspective.supported}"
+							ng-click="templateService.currentPerspective.supported = templateService.currentPerspective.supported ? false : true">
+							Supported
+						</button>
+					</div>
+				</div>
+				<div class="row printAreaItem" ng-repeat="pArea in templateService.currentPerspective.printAreas" ng-class="{currentPrintArea:pArea===templateService.currentPrintArea}">
+					<div class="small-6 columns">
+						<label>Print Area Name:</label>
+						<input type="text" ng-model="pArea.name" />
+					</div>
+
+					<div class="small-3 columns">
+						<label>Width:</label>
+						<input type="number" ng-model="pArea.width" />
+					</div>
+					<div class="small-3 columns">
+						<label>Height:</label>
+						<input type="number" ng-model="pArea.height" />
+					</div>
+					<div class="small-5 columns">
+						<label>Cutout Mask:</label>
+						<div class="progress" ng-show="templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id].cutout">
+							<span class="meter" style="width:{{templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id].cutout}}%"></span>
+						</div>
+						<input type="file"
+							ng-hide="templateService.xhrProgress[templateService.currentPerspective.id][templateService.currentPrintArea.id].cutout"
+							ng-file-select="onPrintAreaFileSelect('cutout', $files)" />
+
+
+
+
+					</div>
+					<div class="small-3 columns">
+						<label>Safe Area:</label>
+						<input type="number" ng-model="pArea.safearea" step="0.1" min="0" max="1.5" />
+					</div>
+					<div class="small-4 columns">
+						<label>Availability:</label>
+						<button class="button tiny"
+							ng-class="{secondary:!pArea.supported, success:pArea.supported}"
+							ng-click="pArea.supported = pArea.supported ? false : true">
+							Supported
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

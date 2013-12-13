@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" id="ng-app" ng-app="ppdApp">
+<head>
+	<title>Print Product Designer</title>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<!-- foundation css framework is first -->
+	<link rel="stylesheet" type="text/css" href="css/foundation/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/foundation/foundation.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/foundation/icons/foundation-icons.css" />
+	<!-- custom foundation overrides, to make it less 'foundationey' -->
+	<link rel="stylesheet" type="text/css" href="css/foundation/foundation.overrides.css" />
+	<!-- plugins -->
+	<link rel="stylesheet" type="text/css" href="lib/plugins/spectrum/spectrum.css" />
+	<!-- skins -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/skins/default.css" /> -->
+	<style type="text/css">
+	.deprecated { color: #888; }
+	.new { }
+
+	.printAreaItem { padding-top:20px; border-top: solid 1px #888; }
+	.currentPrintArea { background: #DADDDF; }
+	
+	button.default { color:#FFF; background:#000; }
+	.default { color:#0AF; }
+	
+	.colorIcon { height:12px; width:12px; }
+	.colorOption { margin-bottom:10px; font-size:0.75rem; }
+	
+	.perspectiveIconList {  }
+	.perspectiveIcon { display:inline-block; margin:0 5px 5px 0; }
+
+	#dabble { margin-top:2rem; border:solid 1px #AAA; position:fixed; }
+	</style>
+	<!-- fonts -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/webfonts.css" /> -->
+	<!-- the preload css is necessary for fonts to display in dynamic <text> elements -->
+	<!-- but it's hacky and there's probably a better solution. -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/webfonts_preload.css" /> -->
+</head>
+<body id="{{model.skin}}" ng-controller="ppdCtrl">
+	<div class="off-canvas-wrap">
+		<div class="inner-wrap">
+			<div class="fixed">
+				<nav class="top-bar hide-for-small" data-topbar>
+					<ul class="title-area">
+						<li class="name"><h1><a href="#">Template Builder</a></h1></li>
+					</ul>
+					<section class="top-bar-section">
+						<ul class="left">
+							<li class="has-form">
+								<a href="#" class="button" ng-click="templateService.getTemplate('52a2410be4b026f3a63aab54')">Get Demo Template</a>
+							</li>
+						</ul>
+						<ul class="right">
+							<!-- <li class="has-form" ng-cloak ng-show="templateService.currentTemplate">
+								<a href="#" class="button" ng-click="templateService.saveTemplate()">Save Template</a>
+							</li> -->
+							<li class="has-form" ng-cloak ng-hide="templateService.currentTemplate">
+								<a href="#" class="button success" ng-click="templateService.addTemplate()">
+									<i class="fi-plus"></i> New Template
+								</a>
+							</li>
+							<li class="divider"></li>
+							<li class="has-dropdown">
+								<a href="#">Workflow</a>
+								<ul class="dropdown">
+									<li><a href="#" ng-click="undo()">Undo</a></li>
+									<li><a href="#" ng-click="redo()">Redo</a></li>
+									<li class="divider"></li>
+									<li><a href="#" ng-click="templateService.getAllTemplates()">Get All Templates</a></li>
+									<li><a href="#" ng-click="templateService.addTemplate()">Add Template</a></li>
+									<li><a href="#" ng-click="templateService.cloneTemplate()">Clone Template</a></li>
+									<!-- <li><a href="#" ng-click="templateService.removeTemplate()">Remove Template</a></li> -->
+									<li class="divider"></li>
+									<li><a href="#" ng-click="templateService.addPerspective()">Add Perspective</a></li>
+									<li><a href="#" ng-click="templateService.clonePerspective()">Clone Perspective</a></li>
+									<li><a href="#" ng-click="templateService.removePerspective()">Remove Perspective</a></li>
+									<li class="divider"></li>
+									<li><a href="#" ng-click="templateService.addPrintArea()">Add Print Area</a></li>
+									<li><a href="#" ng-click="templateService.clonePrintArea()">Clone Print Area</a></li>
+									<li><a href="#" ng-click="templateService.removePrintArea()">Remove Print Area</a></li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</div>
+			<nav class="top-bar show-for-small" data-topbar>
+				<a class="left-off-canvas-toggle menu-icon">
+					<span>Template Builder</span>
+				</a>
+			</nav>
+			<aside class="left-off-canvas-menu">
+				<ul class="off-canvas-list">
+					<li><a href="#" ng-click="undo()">Undo</a></li>
+					<li><a href="#" ng-click="redo()">Redo</a></li>
+					<li><label>Templates</label></li>
+					<li><a href="#" ng-click="templateService.getAllTemplates()">Get All Templates</a></li>
+					<li><a href="#" ng-click="templateService.addTemplate()">Add Template</a></li>
+					<li><a href="#" ng-click="templateService.cloneTemplate()">Clone Template</a></li>
+					<li><a href="#" ng-click="templateService.removeTemplate()">Remove Template</a></li>
+					<li class="divider"></li>
+					<li><label>Perspectives</label></li>
+					<li><a href="#" ng-click="templateService.addPerspective()">Add Perspective</a></li>
+					<li><a href="#" ng-click="templateService.clonePerspective()">Clone Perspective</a></li>
+					<li><a href="#" ng-click="templateService.removePerspective()">Remove Perspective</a></li>
+					<li class="divider"></li>
+					<li><label>Print Areas</label></li>
+					<li><a href="#" ng-click="templateService.addPrintArea()">Add Print Area</a></li>
+					<li><a href="#" ng-click="templateService.clonePrintArea()">Clone Print Area</a></li>
+					<li><a href="#" ng-click="templateService.removePrintArea()">Remove Print Area</a></li>
+				</ul>
+			</aside>
+			<a href="#" class="exit-off-canvas"></a>
+			<section role="main">
+				<div class="small-12 large-6 columns">
+					<div class="row" ng-cloak>
+						<div class="row">
+							<div data-alert ng-cloak class="alert-box danger" ng-show="templateService.errorMsg">{{templateService.errorMsg}}</div>
+							<div data-alert ng-cloak class="alert-box success" ng-show="templateService.successMsg">{{templateService.successMsg}}</div>
+						</div>
+						<div class="row" ng-show="templateService.templateList.length">
+							<div class="small-12 columns">
+								<h3 class="subheader">All Templates ({{templateService.templateList.length}})</h3>
+								<templates></templates>
+							</div>
+						</div>
+						<div ng-show="templateService.currentTemplate" ng-include="'partials/currentTemplate.html'"></div>
+					</div>
+					<div class="row" ng-show="templateService.currentTemplate">
+						<div class="small-12 medium-2 columns">
+							<label>JSON:</label>
+						</div>
+						<div class="small-12 medium-10 columns">
+							<small>This JSON object is what will be saved. It is here for information purposes only.</small>
+							<div class="panel" style="overflow:auto;"><small><pre>{{templateService.currentTemplate}}</pre></small></div>
+						</div>
+					</div>
+				</div>
+				<div class="small-12 large-6 columns">
+					<div id="dabble" ng-show="templateService.currentTemplate">
+						<dabble model="ppdModel" width="570" height="676"></dabble>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+	<!-- angular-file-upload plugin requires that its shim be loaded BEFORE angular -->
+	<!-- we use it for getting the progress of an upload, but helps non-HTML5 browsers too -->
+	<script type="text/javascript" src="lib/plugins/angular-file-upload/angular-file-upload-shim.min.js"></script>
+	<!-- including jquery helps firefox add classes to svg (still happens in FF 25) -->
+	<!-- https://groups.google.com/forum/#!msg/angular/Vz0l-uaOlwk/tcSzyFGpk9cJ -->
+	<script type="text/javascript" src="lib/jquery-1.10.1-min.js"></script>
+	<!-- core -->
+	<script type="text/javascript" src="lib/angular-1.1.5/angular.min.js"></script>
+	<script type="text/javascript" src="lib/d3.min.js"></script>
+	<script type="text/javascript" src="lib/modernizr.js"></script>
+	<script type="text/javascript" src="lib/foundation.min.js"></script>
+	<!-- app -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<!-- controllers -->
+	<script type="text/javascript" src="js/controllers/ppdCtrl.js"></script>
+	<!-- directives -->
+	<script type="text/javascript" src="js/directives/ppd.js"></script>
+	<script type="text/javascript" src="js/directives/tags.js"></script>
+	<script type="text/javascript" src="js/directives/colorList.js"></script>
+	<script type="text/javascript" src="js/directives/perspectiveList.js"></script>
+	<script type="text/javascript" src="js/directives/templates.js"></script>
+	<!-- services/factories/providers -->
+	<script type="text/javascript" src="js/services/templateService.js"></script>
+	<script type="text/javascript" src="js/filters/filterByFulfillment.js"></script>
+	<!-- plugins -->
+	<script type="text/javascript" src="lib/plugins/angular-file-upload/angular-file-upload.min.js"></script>
+	<script type="text/javascript" src="lib/plugins/foundation/foundation.dropdown.js"></script>
+	<script type="text/javascript">$(document).foundation();</script>
+</body>
+<html>

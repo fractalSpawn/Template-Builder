@@ -1,0 +1,565 @@
+
+[
+  {
+    "id": "5293f1a7e4b002d18e530fef",
+    "name": "Men's Standard Weight T-Shirt",
+    "description": "This relaxed fit cotton t-shirt for men has a seamless rib collar with double-needle cover-stitching, shoulder-to-shoulder taping, double-needle sleeve and bottom hem. The shirt is made from 100% pre-shrunk cotton and has a relatively light fabric weight of 5.3 oz.\nLight oxford is made from made from 99% cotton/1% polyester.",
+    "sku": "02-235863",
+    "partner": "sprd",
+    "supported": true,
+    "tags": 
+    [
+      "Apparel"
+    ],
+    "options": {
+      "sizes": 
+      [
+        {
+          "name": "Medium",
+          "supported": true
+        },
+        {
+          "name": "Large",
+          "supported": true
+        },
+        {
+          "name": "XL",
+          "supported": true
+        },
+        {
+          "name": "2XL",
+          "supported": true
+        }
+      ],
+      "colors": 
+      [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "supported": true
+        },
+        {
+          "name": "Brown",
+          "hex": "#663300",
+          "supported": true
+        },
+        {
+          "name": "Dark Green",
+          "hex": "#113211",
+          "supported": true
+        },
+        {
+          "name": "Forest Green",
+          "hex": "#347235",
+          "supported": true
+        },
+        {
+          "name": "Khaki",
+          "hex": "#f0e68c",
+          "supported": true
+        },
+        {
+          "name": "Light Oxford",
+          "hex": "#999F9F",
+          "supported": true
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff",
+          "supported": true
+        }
+      ]
+    },
+    "perspectives": 
+    [
+      {
+        "name": "Front",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/02-235863/415/Perspective_0.png",
+        "resolution": 100,
+        "scale": 100,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Chest",
+            "x": 5,
+            "y": 5,
+            "width": 13,
+            "height": 17,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      },
+      {
+        "name": "Back",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/02-235863/415/Perspective_1.png",
+        "resolution": 100,
+        "scale": 100,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Back",
+            "x": 5,
+            "y": 5,
+            "width": 12,
+            "height": 17,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      },
+      {
+        "name": "Right",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/02-235863/415/Perspective_2.png",
+        "resolution": 100,
+        "scale": 100,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Right",
+            "x": 5,
+            "y": 5,
+            "width": 4,
+            "height": 3,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      },
+      {
+        "name": "Left",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/02-235863/415/Perspective_3.png",
+        "resolution": 100,
+        "scale": 100,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Left",
+            "x": 5,
+            "y": 5,
+            "width": 4,
+            "height": 3,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      }
+    ],
+    "dateCreated": "2013-11-26T00:56:07Z",
+    "lastUpdated": "2013-11-26T00:56:07Z"
+  },
+  {
+    "id": "528e6863e4b098f2c5a77ed2",
+    "name": "Classic S/S T-Shirt",
+    "description": "The softest, smoothest, best-looking T-shirt available anywhere.",
+    "sku": "03-235988",
+    "partner": "artgun",
+    "supported": true,
+    "tags": 
+    [
+      "Apparel"
+    ],
+    "options": {
+      "defaults": {
+        "sizes": "Medium",
+        "colors": "Sport Blue"
+      },
+      "sizes": 
+      [
+        {
+          "name": "Small",
+          "supported": true
+        },
+        {
+          "name": "Medium",
+          "supported": true
+        },
+        {
+          "name": "Large",
+          "supported": true
+        },
+        {
+          "name": "XL",
+          "supported": true
+        },
+        {
+          "name": "2XL",
+          "supported": true
+        },
+        {
+          "name": "3XL",
+          "supported": true
+        }
+      ],
+      "colors": 
+      [
+        {
+          "name": "Active Blue",
+          "hex": "#006579",
+          "supported": true
+        },
+        {
+          "name": "Aqua",
+          "hex": "#008472",
+          "supported": true
+        },
+        {
+          "name": "Athletic Navy",
+          "hex": "#282942",
+          "supported": true
+        },
+        {
+          "name": "Athletic Red",
+          "hex": "#d40202",
+          "supported": true
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "supported": true
+        },
+        {
+          "name": "Bright Cardinal",
+          "hex": "#a20800",
+          "supported": true
+        },
+        {
+          "name": "Bright Garnet",
+          "hex": "#c03737",
+          "supported": true
+        },
+        {
+          "name": "Carolina",
+          "hex": "#8db9e5",
+          "supported": true
+        },
+        {
+          "name": "Charcoal Heather",
+          "hex": "#312b29",
+          "supported": true
+        },
+        {
+          "name": "Classic Brown",
+          "hex": "#33221a",
+          "supported": true
+        },
+        {
+          "name": "Coastal Blue",
+          "hex": "#a0c0ef",
+          "supported": true
+        },
+        {
+          "name": "Dark Garnet",
+          "hex": "#853c47",
+          "supported": true
+        },
+        {
+          "name": "Dark Green",
+          "hex": "#113211",
+          "supported": true
+        },
+        {
+          "name": "Dark Orange",
+          "hex": "#ff4800",
+          "supported": true
+        },
+        {
+          "name": "Dark Purple",
+          "hex": "#5b2460",
+          "supported": true
+        },
+        {
+          "name": "Deep Royal",
+          "hex": "#093c9a",
+          "supported": true
+        },
+        {
+          "name": "Harvest Gold",
+          "hex": "#e4c08b",
+          "supported": true
+        },
+        {
+          "name": "Kelly Green",
+          "hex": "#009651",
+          "supported": true
+        },
+        {
+          "name": "Marine Green",
+          "hex": "#004d48",
+          "supported": true
+        },
+        {
+          "name": "Pacific Blue",
+          "hex": "#1f3754",
+          "supported": true
+        },
+        {
+          "name": "Sport Blue",
+          "hex": "#61aee1",
+          "supported": true
+        },
+        {
+          "name": "Stadium Blue",
+          "hex": "#125687",
+          "supported": true
+        },
+        {
+          "name": "Steel",
+          "hex": "#a5acb0",
+          "supported": true
+        },
+        {
+          "name": "Traditional Navy",
+          "hex": "#0e1c36",
+          "supported": true
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff",
+          "supported": true
+        },
+        {
+          "name": "Yellow Gold",
+          "hex": "#fc9925",
+          "supported": true
+        }
+      ]
+    },
+    "perspectives": 
+    [
+      {
+        "name": "Front",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/03-235988/415/Perspective_0.png",
+        "resolution": 100,
+        "scale": 82,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Chest",
+            "x": 8,
+            "y": 6,
+            "width": 8,
+            "height": 13,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      }
+    ],
+    "dateCreated": "2013-11-22T04:09:07Z",
+    "lastUpdated": "2013-11-26T01:08:07Z"
+  },
+  {
+    "id": "528d43a0e4b089ea04d9cb4b",
+    "name": "Classic S/S Tee",
+    "description": "The softest, smoothest, best-looking T-shirt available anywhere.",
+    "sku": "03-235988",
+    "partner": "artgun",
+    "supported": true,
+    "tags": 
+    [
+      "Apparel"
+    ],
+    "options": {
+      "defaults": {
+        "sizes": "Medium",
+        "colors": "Aqua"
+      },
+      "sizes": 
+      [
+        {
+          "name": "Small",
+          "supported": true
+        },
+        {
+          "name": "Medium",
+          "supported": true
+        },
+        {
+          "name": "Large",
+          "supported": true
+        },
+        {
+          "name": "XL",
+          "supported": true
+        },
+        {
+          "name": "2XL",
+          "supported": true
+        },
+        {
+          "name": "3XL",
+          "supported": true
+        }
+      ],
+      "colors": 
+      [
+        {
+          "name": "Active Blue",
+          "hex": "#006579",
+          "supported": true
+        },
+        {
+          "name": "Aqua",
+          "hex": "#008472",
+          "supported": true
+        },
+        {
+          "name": "Athletic Navy",
+          "hex": "#282942",
+          "supported": true
+        },
+        {
+          "name": "Athletic Red",
+          "hex": "#d40202",
+          "supported": true
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "supported": true
+        },
+        {
+          "name": "Bright Cardinal",
+          "hex": "#a20800",
+          "supported": true
+        },
+        {
+          "name": "Bright Garnet",
+          "hex": "#c03737",
+          "supported": true
+        },
+        {
+          "name": "Carolina",
+          "hex": "#8db9e5",
+          "supported": true
+        },
+        {
+          "name": "Charcoal Heather",
+          "hex": "#312b29",
+          "supported": true
+        },
+        {
+          "name": "Classic Brown",
+          "hex": "#33221a",
+          "supported": true
+        },
+        {
+          "name": "Coastal Blue",
+          "hex": "#a0c0ef",
+          "supported": true
+        },
+        {
+          "name": "Dark Garnet",
+          "hex": "#853c47",
+          "supported": true
+        },
+        {
+          "name": "Dark Green",
+          "hex": "#113211",
+          "supported": true
+        },
+        {
+          "name": "Dark Orange",
+          "hex": "#ff4800",
+          "supported": true
+        },
+        {
+          "name": "Dark Purple",
+          "hex": "#5b2460",
+          "supported": true
+        },
+        {
+          "name": "Deep Royal",
+          "hex": "#093c9a",
+          "supported": true
+        },
+        {
+          "name": "Harvest Gold",
+          "hex": "#e4c08b",
+          "supported": true
+        },
+        {
+          "name": "Kelly Green",
+          "hex": "#009651",
+          "supported": true
+        },
+        {
+          "name": "Marine Green",
+          "hex": "#004d48",
+          "supported": true
+        },
+        {
+          "name": "Pacific Blue",
+          "hex": "#1f3754",
+          "supported": true
+        },
+        {
+          "name": "Sport Blue",
+          "hex": "#61aee1",
+          "supported": true
+        },
+        {
+          "name": "Stadium Blue",
+          "hex": "#125687",
+          "supported": true
+        },
+        {
+          "name": "Steel",
+          "hex": "#a5acb0",
+          "supported": true
+        },
+        {
+          "name": "Traditional Navy",
+          "hex": "#0e1c36",
+          "supported": true
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff",
+          "supported": true
+        },
+        {
+          "name": "Yellow Gold",
+          "hex": "#fc9925",
+          "supported": true
+        }
+      ]
+    },
+    "perspectives": 
+    [
+      {
+        "name": "Front",
+        "background": "http://prod.images.dabbleapp.com/4e5c11a5e4b0b986b967f096/master/products/03-235988/415/Perspective_0.png",
+        "resolution": 100,
+        "scale": 100,
+        "supported": true,
+        "printAreas": 
+        [
+          {
+            "name": "Chest",
+            "x": 6,
+            "y": 5,
+            "width": 8,
+            "height": 13,
+            "safeArea": 0,
+            "unit": "inch",
+            "supported": true
+          }
+        ]
+      }
+    ],
+    "dateCreated": "2013-11-22T07:20:00Z",
+    "lastUpdated": "2013-11-21T20:19:46Z"
+  }
+]

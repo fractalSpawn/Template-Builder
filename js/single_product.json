@@ -1,0 +1,114 @@
+
+    {
+        "dateCreated": "2013-11-26T00:56:07Z", 
+        "description": "This relaxed fit cotton hoodie for men has a seamless rib collar with double-needle cover-stitching, shoulder-to-shoulder taping, double-needle sleeve and bottom hem. The shirt is made from 100% pre-shrunk cotton and has a relatively light fabric weight of 5.3 oz.\nLight oxford is made from made from 99% cotton/1% polyester.", 
+        "id": "5293f1a7e4b002d18e530fef", 
+        "lastUpdated": "2013-11-26T00:56:07Z", 
+        "name": "Men's Hoodie", 
+        "options": {
+        	"defaults": {
+        		"colors": "Forest Green"
+        	},     
+            "colors": [
+                {
+                    "hex": "#000000", 
+                    "name": "Black", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#663300", 
+                    "name": "Brown", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#113211", 
+                    "name": "Dark Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#347235", 
+                    "name": "Forest Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#f0e68c", 
+                    "name": "Khaki", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#999F9F", 
+                    "name": "Light Oxford", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#ffffff", 
+                    "name": "White", 
+                    "supported": true
+                }
+            ], 
+            "sizes": [
+                {
+                    "name": "Medium", 
+                    "supported": true
+                }, 
+                {
+                    "name": "Large", 
+                    "supported": true
+                }, 
+                {
+                    "name": "XL", 
+                    "supported": true
+                }, 
+                {
+                    "name": "2XL", 
+                    "supported": true
+                }
+            ]
+        }, 
+        "partner": "partner_a", 
+        "perspectives": [
+            {
+                "background": "images/mashon_hoodie_front.png", 
+                "name": "Front", 
+                "printAreas": [
+                    {
+                        "height": 17, 
+                        "name": "Chest", 
+                        "safeArea": 0, 
+                        "supported": true, 
+                        "unit": "inch", 
+                        "width": 13, 
+                        "x": 5, 
+                        "y": 5
+                    }
+                ], 
+                "resolution": 100, 
+                "scale": 100, 
+                "supported": true
+            }, 
+            {
+                "background": "images/mashon_hoodie_back.png", 
+                "name": "Back", 
+                "printAreas": [
+                    {
+                        "height": 17, 
+                        "name": "Back", 
+                        "safeArea": 0, 
+                        "supported": true, 
+                        "unit": "inch", 
+                        "width": 12, 
+                        "x": 5, 
+                        "y": 5
+                    }
+                ], 
+                "resolution": 100, 
+                "scale": 100, 
+                "supported": true
+            }
+        ], 
+        "sku": "02-235863", 
+        "supported": true, 
+        "tags": [
+            "Apparel"
+        ]
+    }
