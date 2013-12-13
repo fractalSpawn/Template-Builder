@@ -1,0 +1,50 @@
+<div class="row" ng-show="templateService.availableAttributes.sizes">
+	<div class="small-12 medium-2 columns">
+		<label>Sizes:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<small>This list of sizes is similar to the above list of colors, but for sizes.</small>
+		<div class="panel" style="max-height:500px;overflow:auto;">
+			<div class="row"
+				ng-class="{deprecated:templateService.attributeIsDeprecated('sizes', size), new:templateService.attributeIsNew('sizes', size)}"
+				ng-repeat="size in templateService.availableAttributes.sizes | filterByFulfillment:templateService.currentTemplate.partner | orderBy:'+name'">
+				<div class="small-7 columns">{{size.name}}</div>
+				<div class="small-5 columns text-right">
+					<span ng-show="templateService.attributeIsNew('sizes', size)">
+						<button class="button tiny" ng-click="templateService.addTemplateAttribute('sizes', size)">
+							<i class="fi-plus"></i> Add
+						</button>
+					</span>
+					<span ng-show="templateService.attributeIsDefault('sizes', size)">
+						<button class="button tiny disabled">
+							<i class="fi-star"></i>
+						</button>
+					</span>
+					<span ng-show="!templateService.attributeIsNew('sizes', size) && !templateService.attributeIsDefault('sizes', size)">
+						<button class="button tiny"
+							ng-class="{success:templateService.attributeIsSupported('sizes', size)}"
+							ng-click="templateService.toggleAttributeSupport('sizes', size)">
+							<i class="fi-plus" ng-hide="templateService.attributeIsSupported('sizes', size)"></i>
+							<i class="fi-check" ng-show="templateService.attributeIsSupported('sizes', size)"></i>
+						</button>
+					</span>
+				</div>
+			</div>
+			<div class="row" ng-show="templateService.deprecatedAttributes.sizes">
+				<div class="small-12 columns">
+					<small class="error">The following sizes are no longer available and can be removed.</small>
+				</div>
+			</div>
+			<div class="row deprecated"
+				ng-repeat="size in templateService.deprecatedAttributes.sizes | orderBy:'+name'">
+				<div class="small-4 columns">{{size.name}}</div>
+				<div class="small-6 columns"><small>Cannot be fulfilled by "{{templateService.currentTemplate.partner}}"</small></div>
+				<div class="small-2 columns text-right">
+					<button class="button tiny secondary" ng-click="templateService.removeTemplateAttribute('sizes', size)">
+						<i class="fi-x"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

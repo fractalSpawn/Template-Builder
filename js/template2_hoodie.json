@@ -1,0 +1,130 @@
+{
+	"name": "Men's Hooded Sweatshirt",
+	"description": "",
+	"internalSKU": "INT12345",
+	"cost": 9.99,
+	"wholesale": 14.99,
+	"msrp": 24.99,
+	"tags": [
+		"Apparel",
+		"Sweatshirts",
+		"Warm Clothing"
+	],
+	"defaultColor": "#0AF",
+	"defaultFFPartnerId": "partner_01",
+	"options": {
+		"sizes": [{
+			"name": "X-Small"
+		},{
+			"name": "Small"
+		},{
+			"name": "Medium"
+		},{
+			"name": "Large"
+		},{
+			"name": "X-Large"
+		},{
+			"name": "XX-Large"
+		}],
+		"colors": [{
+			"name": "White",
+			"hex": "#ffffff"
+		},{
+			"name": "Black",
+			"hex": "#000000"
+		},{
+			"name": "Aqua",
+			"hex": "#00aaff"
+		},{
+			"name": "Orange",
+			"hex": "#ff6600"
+		}]
+	},
+	"perspectives": [{
+		"name": "Front",
+		"resolution": 100,
+		"scale": 100,
+		"unit": "inch",
+		"enabled": true,
+		"supported": true,
+		"bgImage": "/images/mashon_hoodie_front.png",
+		"printAreas": [{
+			"name": "Chest",
+			"x": 5.5,
+			"y": 5,
+			"width": 9,
+			"height": 11,
+			"safearea": 1,
+			"enabled": true,
+			"supported": true,
+			"unit": "inch",
+			"price": 0,
+			"design": {
+				"layers": [{
+					"type": "image",
+					"zindex": 0,
+					"x": 0,
+					"y": 0,
+					"width": 15,
+					"height": 9,
+					"rotation": 0,
+					"imageURL": "http:\/\/farm9.staticflickr.com\/8204\/8180734262_01962d85fe.jpg"
+				},{
+					"type": "text",
+					"zindex": 1,
+					"x": -0.8,
+					"y": 7.1,
+					"rotation": 0,
+					"fontFamily": "Lobster",
+					"fontSize": 75,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"strokeWidth": 0,
+					"content": "Dabble"
+				}]
+			}
+		},{
+			"name": "Left Pocket",
+			"x": 5.5,
+			"y": 7,
+			"width": 3.7,
+			"height": 3.6,
+			"safearea": 0,
+			"enabled": true,
+			"supported": true,
+			"unit": "inch",
+			"price": 0
+		},{
+			"name": "Right Pocket",
+			"x": 12,
+			"y": 7,
+			"width": 3.7,
+			"height": 3.6,
+			"safearea": 0,
+			"enabled": true,
+			"supported": true,
+			"unit": "inch",
+			"price": 0
+		}]
+	},{
+		"name": "Back",
+		"resolution": 100,
+		"scale": 100,
+		"unit": "inch",
+		"enabled": true,
+		"supported": true,
+		"bgImage": "/images/mashon_hoodie_back.png",
+		"printAreas": [{
+			"name": "Back Center",
+			"x": 6,
+			"y": 8.5,
+			"width": 9,
+			"height": 9,
+			"safearea": 0,
+			"enabled": true,
+			"supported": true,
+			"unit": "inch",
+			"price": 0
+		}]
+	}]
+}

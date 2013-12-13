@@ -1,0 +1,135 @@
+html, body { width: 100%; height: 100%; }
+
+#dblAdmin #dabblePanel {
+	background: #FFF;
+}
+
+#dblAdmin #controlPanel {
+	background: #EEE;
+}
+
+
+/* dabbleFrame holds everything */
+#dblAdmin #dabbleFrame {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* this wraps just the dabble svg part */
+#dblAdmin #paperWrapper {
+	margin: 5% auto;
+	width: 420px;
+	height: 498px;
+	overflow: hidden;
+	border: solid 1px #DDD;
+}
+
+
+/***
+ *    .----. .----.  .----..----.  .---.  .---. .-. .-. .----.
+ *    | {}  }| {}  }{ {__  | {}  }/  ___}{_   _}| | | |{ {__  
+ *    | .--' | .-. \.-._} }| .--' \     }  | |  \ \_/ /.-._} }
+ *    `-'    `-' `-'`----' `-'     `---'   `-'   `---' `----' 
+ */
+/* style for wrapper for perspectives and print areas */
+#dblAdmin #perspectives {
+	padding: 10px;
+	height: auto;
+	color: #FFF;
+}
+
+#dblAdmin #perspectives #iconList {}
+
+#dblAdmin #perspectives #iconList .perspectiveSet {
+	float: left;
+	/* transparent so we don't see a jump on highlight */
+	border: solid 1px transparent;
+}
+/* give the border some color when this perspective is selected */
+#dblAdmin #perspectives #iconList .perspectiveSet.selected {
+	border-color: #F60;
+}
+
+/* style for each perspective available */
+#dblAdmin #perspectives #iconList .perspectiveSet .icon {
+	float: left;
+	border: solid 2px transparent;
+}
+#dblAdmin #perspectives #iconList .perspectiveSet .icon.selected {
+	border-color: #FC0;
+}
+
+/***
+ *     .---. .----..-.   .-..----. .-.     .--.  .---. .----. .----.
+ *    {_   _}| {_  |  `.'  || {}  }| |    / {} \{_   _}| {_  { {__  
+ *      | |  | {__ | |\ /| || .--' | `--./  /\  \ | |  | {__ .-._} }
+ *      `-'  `----'`-' ` `-'`-'    `----'`-'  `-' `-'  `----'`----'                                                                 
+ */
+/* wraps the list of other/related templates/products */
+#dblAdmin #templateList {
+	overflow: auto;
+}
+/* style for template/product icons */
+#dblAdmin #templateList .templateIcon {
+	margin: 0 10px 10px 0;
+	width: 85px;
+	float: left;
+	font-size: 12px;
+}
+
+/***
+ *     .---.  .----. .-.    .----. .----.  .----.
+ *    /  ___}/  {}  \| |   /  {}  \| {}  }{ {__  
+ *    \     }\      /| `--.\      /| .-. \.-._} }
+ *     `---'  `----' `----' `----' `-' `-'`----' 
+ */
+/* wraps the list of available color options */
+#dblAdmin #colorList {
+	overflow: auto;
+}
+/* style for each color option (w/ default style change) */
+#dblAdmin #colorList .colorOption {
+	padding: 5px;
+}
+#dblAdmin #colorList .colorOption.default {
+	background: #DDD;
+}
+/* background color will be set inline using style attr */
+#dblAdmin #colorList .colorOption .colorIcon {
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: #000;
+}
+#dblAdmin #colorList .colorOption .colorIcon .colorAccent {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+/* style for the color label */
+#dblAdmin #colorList .colorOption .colorLabel {
+	float: left;
+	margin: 0 5px 0 0;
+	font-size: 13px;
+}
+#dblAdmin #colorList .colorOption.default .colorLabel {
+	font-weight: bold;
+}
+
+/***
+ *    .----. .----. .----..-. .---. .-. .-. .----.
+ *    | {}  \| {_  { {__  | |/   __}|  `| |{ {__  
+ *    |     /| {__ .-._} }| |\  {_ }| |\  |.-._} }
+ *    `----' `----'`----' `-' `---' `-' `-'`----' 
+ */
+/* style for wrapper for design tools */
+/*#dblAdmin #designTools {
+	background: #EEE;
+	overflow: auto;
+}*/

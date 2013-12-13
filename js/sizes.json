@@ -1,0 +1,64 @@
+[
+    {
+        "mapping": [
+            {
+                "alias": "xs", 
+                "partner": "partner_a"
+            }
+        ], 
+        "name": "X-Small", 
+        "type": "sizes"
+    }, 
+    {
+        "mapping": [
+            {
+                "alias": "sm", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "SML", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Small", 
+        "type": "sizes"
+    }, 
+    {
+        "mapping": [
+            {
+                "alias": "md", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "MED", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Medium", 
+        "type": "sizes"
+    }, 
+    {
+        "mapping": [
+            {
+                "alias": "lg", 
+                "partner": "partner_a"
+            }, 
+            {
+                "alias": "LRG", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "Large", 
+        "type": "sizes"
+    }, 
+    {
+        "mapping": [
+            {
+                "alias": "XLG", 
+                "partner": "partner_b"
+            }
+        ], 
+        "name": "X-Large", 
+        "type": "sizes"
+    }
+]

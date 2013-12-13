@@ -1,0 +1,135 @@
+html, body { width: 100%; height: 100%; }
+
+#dblClassic #dabblePanel {
+	background: #FFF;
+}
+
+#dblClassic #controlPanel {
+	background: #EEE;
+}
+
+
+/* dabbleFrame holds everything */
+#dblClassic #dabbleFrame {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* this wraps just the dabble svg part */
+#dblClassic #paperWrapper {
+	margin: 5% auto;
+	width: 420px;
+	height: 498px;
+	overflow: hidden;
+	border: solid 1px #DDD;
+}
+
+
+/***
+ *    .----. .----.  .----..----.  .---.  .---. .-. .-. .----.
+ *    | {}  }| {}  }{ {__  | {}  }/  ___}{_   _}| | | |{ {__  
+ *    | .--' | .-. \.-._} }| .--' \     }  | |  \ \_/ /.-._} }
+ *    `-'    `-' `-'`----' `-'     `---'   `-'   `---' `----' 
+ */
+/* style for wrapper for perspectives and print areas */
+#dblClassic #perspectives {
+	padding: 10px;
+	height: auto;
+	color: #FFF;
+}
+
+#dblClassic #perspectives #iconList {}
+
+#dblClassic #perspectives #iconList .perspectiveSet {
+	float: left;
+	/* transparent so we don't see a jump on highlight */
+	border: solid 1px transparent;
+}
+/* give the border some color when this perspective is selected */
+#dblClassic #perspectives #iconList .perspectiveSet.selected {
+	border-color: #F60;
+}
+
+/* style for each perspective available */
+#dblClassic #perspectives #iconList .perspectiveSet .icon {
+	float: left;
+	border: solid 2px transparent;
+}
+#dblClassic #perspectives #iconList .perspectiveSet .icon.selected {
+	border-color: #FC0;
+}
+
+/***
+ *     .---. .----..-.   .-..----. .-.     .--.  .---. .----. .----.
+ *    {_   _}| {_  |  `.'  || {}  }| |    / {} \{_   _}| {_  { {__  
+ *      | |  | {__ | |\ /| || .--' | `--./  /\  \ | |  | {__ .-._} }
+ *      `-'  `----'`-' ` `-'`-'    `----'`-'  `-' `-'  `----'`----'                                                                 
+ */
+/* wraps the list of other/related templates/products */
+#dblClassic #templateList {
+	overflow: auto;
+}
+/* style for template/product icons */
+#dblClassic #templateList .templateIcon {
+	margin: 0 10px 10px 0;
+	width: 85px;
+	float: left;
+	font-size: 12px;
+}
+
+/***
+ *     .---.  .----. .-.    .----. .----.  .----.
+ *    /  ___}/  {}  \| |   /  {}  \| {}  }{ {__  
+ *    \     }\      /| `--.\      /| .-. \.-._} }
+ *     `---'  `----' `----' `----' `-' `-'`----' 
+ */
+/* wraps the list of available color options */
+#dblClassic #colorList {
+	overflow: auto;
+}
+/* style for each color option (w/ default style change) */
+#dblClassic #colorList .colorOption {
+	padding: 5px;
+}
+#dblClassic #colorList .colorOption.default {
+	background: #DDD;
+}
+/* background color will be set inline using style attr */
+#dblClassic #colorList .colorOption .colorIcon {
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: #000;
+}
+#dblClassic #colorList .colorOption .colorIcon .colorAccent {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+/* style for the color label */
+#dblClassic #colorList .colorOption .colorLabel {
+	float: left;
+	margin: 0 5px 0 0;
+	font-size: 13px;
+}
+#dblClassic #colorList .colorOption.default .colorLabel {
+	font-weight: bold;
+}
+
+/***
+ *    .----. .----. .----..-. .---. .-. .-. .----.
+ *    | {}  \| {_  { {__  | |/   __}|  `| |{ {__  
+ *    |     /| {__ .-._} }| |\  {_ }| |\  |.-._} }
+ *    `----' `----'`----' `-' `---' `-' `-'`----' 
+ */
+/* style for wrapper for design tools */
+/*#dblClassic #designTools {
+	background: #EEE;
+	overflow: auto;
+}*/

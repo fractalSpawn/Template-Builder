@@ -1,0 +1,313 @@
+[
+    {
+        "dateCreated": "2013-11-26T00:56:07Z", 
+        "description": "This relaxed fit cotton hoodie for men has a seamless rib collar with double-needle cover-stitching, shoulder-to-shoulder taping, double-needle sleeve and bottom hem. The shirt is made from 100% pre-shrunk cotton and has a relatively light fabric weight of 5.3 oz.\nLight oxford is made from made from 99% cotton/1% polyester.", 
+        "id": "5293f1a7e4b002d18e530fef", 
+        "lastUpdated": "2013-11-26T00:56:07Z", 
+        "name": "Men's Hoodie", 
+        "options": {
+        	"defaults": {
+        		"colors": "Forest Green"
+        	},
+            "colors": [
+                {
+                    "hex": "#000000", 
+                    "name": "Black", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#663300", 
+                    "name": "Brown", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#113211", 
+                    "name": "Dark Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#347235", 
+                    "name": "Forest Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#f0e68c", 
+                    "name": "Khaki", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#999F9F", 
+                    "name": "Light Oxford", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#ffffff", 
+                    "name": "White", 
+                    "supported": true
+                }
+            ], 
+            "sizes": [
+                {
+                    "name": "Medium", 
+                    "supported": true
+                }, 
+                {
+                    "name": "Large", 
+                    "supported": true
+                }, 
+                {
+                    "name": "XL", 
+                    "supported": true
+                }, 
+                {
+                    "name": "2XL", 
+                    "supported": true
+                }
+            ]
+        }, 
+        "partner": "partner_a", 
+        "perspectives": [
+            {
+                "background": "images/mashon_hoodie_front.png", 
+                "name": "Front", 
+                "printAreas": [
+                    {
+                        "height": 17, 
+                        "name": "Chest", 
+                        "safeArea": 0, 
+                        "supported": true, 
+                        "unit": "inch", 
+                        "width": 13, 
+                        "x": 5, 
+                        "y": 5
+                    }
+                ], 
+                "resolution": 100, 
+                "scale": 100, 
+                "supported": true
+            }, 
+            {
+                "background": "images/mashon_hoodie_back.png", 
+                "name": "Back", 
+                "printAreas": [
+                    {
+                        "height": 17, 
+                        "name": "Back", 
+                        "safeArea": 0, 
+                        "supported": true, 
+                        "unit": "inch", 
+                        "width": 12, 
+                        "x": 5, 
+                        "y": 5
+                    }
+                ], 
+                "resolution": 100, 
+                "scale": 100, 
+                "supported": true
+            }
+        ], 
+        "sku": "02-235863", 
+        "supported": true, 
+        "tags": [
+            "Apparel"
+        ]
+    }, 
+    {
+        "dateCreated": "2013-11-22T04:09:07Z", 
+        "description": "The softest, smoothest, best-looking T-shirt available anywhere.", 
+        "id": "528e6863e4b098f2c5a77ed2", 
+        "lastUpdated": "2013-11-26T01:08:07Z", 
+        "name": "Classic S/S T-Shirt", 
+        "options": {
+            "colors": [
+                {
+                    "hex": "#006579", 
+                    "name": "Active Blue", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#008472", 
+                    "name": "Aqua", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#282942", 
+                    "name": "Athletic Navy", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#d40202", 
+                    "name": "Athletic Red", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#000000", 
+                    "name": "Black", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#a20800", 
+                    "name": "Bright Cardinal", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#c03737", 
+                    "name": "Bright Garnet", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#8db9e5", 
+                    "name": "Carolina", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#312b29", 
+                    "name": "Charcoal Heather", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#33221a", 
+                    "name": "Classic Brown", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#a0c0ef", 
+                    "name": "Coastal Blue", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#853c47", 
+                    "name": "Dark Garnet", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#113211", 
+                    "name": "Dark Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#ff4800", 
+                    "name": "Dark Orange", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#5b2460", 
+                    "name": "Dark Purple", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#093c9a", 
+                    "name": "Deep Royal", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#e4c08b", 
+                    "name": "Harvest Gold", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#009651", 
+                    "name": "Kelly Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#004d48", 
+                    "name": "Marine Green", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#1f3754", 
+                    "name": "Pacific Blue", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#61aee1", 
+                    "name": "Sport Blue", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#125687", 
+                    "name": "Stadium Blue", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#a5acb0", 
+                    "name": "Steel", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#0e1c36", 
+                    "name": "Traditional Navy", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#ffffff", 
+                    "name": "White", 
+                    "supported": true
+                }, 
+                {
+                    "hex": "#fc9925", 
+                    "name": "Yellow Gold", 
+                    "supported": true
+                }
+            ], 
+            "defaults": {
+                "colors": "Sport Blue", 
+                "sizes": "Medium"
+            }, 
+            "sizes": [
+                {
+                    "name": "Small", 
+                    "supported": true
+                }, 
+                {
+                    "name": "Medium", 
+                    "supported": true
+                }, 
+                {
+                    "name": "Large", 
+                    "supported": true
+                }, 
+                {
+                    "name": "XL", 
+                    "supported": true
+                }, 
+                {
+                    "name": "2XL", 
+                    "supported": true
+                }, 
+                {
+                    "name": "3XL", 
+                    "supported": true
+                }
+            ]
+        }, 
+        "partner": "partner_b", 
+        "perspectives": [
+            {
+                "background": "images/mashon_shirt.png", 
+                "name": "Front", 
+                "printAreas": [
+                    {
+                        "height": 13, 
+                        "name": "Chest", 
+                        "safeArea": 0, 
+                        "supported": true, 
+                        "unit": "inch", 
+                        "width": 8, 
+                        "x": 8, 
+                        "y": 6
+                    }
+                ], 
+                "resolution": 100, 
+                "scale": 82, 
+                "supported": true
+            }
+        ], 
+        "sku": "03-235988", 
+        "supported": true, 
+        "tags": [
+            "Apparel"
+        ]
+    }
+]

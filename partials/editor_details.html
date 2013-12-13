@@ -1,0 +1,62 @@
+<div class="row">
+	<div class="small-12 columns">
+		<label>Name:</label>
+		<input type="text" name="name" ng-model="templateService.currentTemplate.name" required />
+		<span class="error" ng-show="myForm.name.$error.required">Product name is required</span>
+	</div>
+	<div class="small-4 columns">
+		<label>SKU:</label>
+		<input type="text" name="sku" ng-class="{error:myForm.sku.$error.required}" ng-model="templateService.currentTemplate.sku" required />
+		<small class="error" ng-show="myForm.sku.$error.required">SKU is required</small>
+	</div>
+	<div class="small-4 columns">
+		<label>Partner:</label>
+		<select name="partner" ng-class="{error:myForm.partner.$error.required}" ng-model="templateService.currentTemplate.partner" required>
+			<option value="partner_a">FFPartner A</option>
+			<option value="partner_b">FFPartner B</option>
+		</select>
+		<small class="error" ng-show="myForm.partner.$error.required">Fulfillment partner required</small>
+	</div>
+	<div class="small-4 columns">
+		<label>Availability:</label>
+		<button class="button tiny"
+			ng-class="{secondary:!templateService.currentTemplate.supported,success:templateService.currentTemplate.supported}"
+			ng-click="templateService.currentTemplate.supported = templateService.currentTemplate.supported ? false : true">
+			Supported
+		</button>
+	</div>
+</div>
+<div class="row">
+	<div class="small-12 medium-2 columns">
+		<label>Tags:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<div class="panel" style="max-height:300px;overflow:auto;">
+			<tags tag-list="templateService.currentTemplate.tags"></tags>
+		</div>
+	</div>
+</div>
+<div class="row" ng-show="templateService.currentTemplate.options.colors">
+	<div class="small-12 medium-2 columns">
+		<label>Default Color:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<small>This select box can be used in the template details section as a quick way to select a default color.</small>
+		<select
+			ng-model="templateService.currentTemplate.options.defaults.colors"
+			ng-show="templateService.currentTemplate.options.colors"
+			ng-options="c.name for c in templateService.currentTemplate.options.colors | filter:{'supported':true}">
+		</select>
+	</div>
+</div>
+<div class="row" ng-show="templateService.currentTemplate.options.colors">
+	<div class="small-12 medium-2 columns">
+		<label>Color List:</label>
+	</div>
+	<div class="small-12 medium-10 columns">
+		<small>This color list can be used by customers when choosing the color of the product they want to design on.</small>
+		<div class="panel" style="max-height:300px;overflow:auto;">
+			<color-list></color-list>
+		</div>
+	</div>
+</div>

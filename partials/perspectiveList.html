@@ -1,0 +1,35 @@
+<div class="perspectiveIconList">
+	<div ng-cloak
+		class="perspectiveIcon"
+		style="width:{{iconWidth}}px; height:{{iconHeight}}px;"
+		ng-class="{'selected': pArea == templateService.currentPrintArea}"
+		ng-repeat="pArea in printAreas track by $id($index)">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			version="1.1"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			ng-click="templateService.setCurrentPrintArea(pArea)">
+			<rect
+				x="0"
+				y="0"
+				ng-attr-width="{{iconWidth}}"
+				ng-attr-height="{{iconHeight}}"
+				fill="{{(templateService.currentTemplate.options.colors | filter:{name:templateService.currentTemplate.options.defaults.colors.name})[0].hex || '#FFF'}}"/>
+			<image
+				x="0"
+				y="0"
+				ng-attr-width="{{iconWidth}}"
+				ng-attr-height="{{iconHeight}}"
+				xlink:href="{{printAreaImages[$index]}}" />
+			<rect
+				ng-show="pArea !== undefined"
+				ng-attr-x="{{pArea.x * printAreaScales[$index]}}"
+				ng-attr-y="{{pArea.y * printAreaScales[$index]}}"
+				ng-attr-width="{{pArea.width * printAreaScales[$index]}}"
+				ng-attr-height="{{pArea.height * printAreaScales[$index]}}"
+				fill="#FF0000"
+				opacity="0.7"/>
+		</svg>
+	</div>
+</div>
+

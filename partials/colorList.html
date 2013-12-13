@@ -1,0 +1,17 @@
+<div id="colorList">
+	<div class="small-4 columns colorOption"
+		ng-class="{default:templateService.attributeIsDefault('colors',color)}"
+		ng-repeat="color in templateService.currentTemplate.options.colors | filter:{supported:true}"
+		ng-click="templateService.setTemplateDefaults('colors',color)">
+		<div class="row collapse">
+			<div class="small-2 columns">
+				<div class="colorIcon" style="background:{{color.hex}};">
+					<div class="colorAccent" style="background:{{color.accentHex}}" ng-show="color.accentHex !== undefined"></div>
+				</div>
+			</div>
+			<div class="small-10 columns">
+				{{color.name}}
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<ul class="small-block-grid-3">
+	<li ng-repeat="tpl in templateService.templateList" ng-click="templateService.setCurrentTemplate(tpl)">
+		<div class="row collapse">
+			<div class="small-12 text-center">
+				<img ng-src="{{tpl.perspectives[0].background}}" width="85" height="100" style="background:{{templateService.getTemplateDefaults('colors', tpl).hex}}" />
+			</div>
+			<div class="small-12 text-center">{{tpl.name}}</div>
+		</div>
+	</li>
+</ul>

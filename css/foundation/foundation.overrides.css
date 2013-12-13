@@ -1,0 +1,45 @@
+/* removing bottom margin from buttons */
+/*button, .button { margin: 0 0 0.325rem; }*/
+
+/* making tiny buttons more tiny */
+/*button.tiny, .button.tiny {
+	padding: 0.325rem 0.625rem;
+}*/
+
+/* adding a danger class for buttons, panels and alert boxes */
+.danger {
+	background: #D00;
+	border-color: #A00;
+}
+
+/* there is an error class for inputs, but this makes it a bit better */
+input.error {
+	border-color: red;
+}
+input.warning {
+	margin-bottom: 0;
+	border-color: #FFDD33;
+}
+
+/* zero the bottom margin for select boxes that have .error */
+/* this is to match the behavior that input.error seems to have by default. */
+select.error {
+	margin-bottom: 0;
+	border-color: red;
+}
+select.warning {
+	margin-bottom: 0;
+	border-color: #FFDD33;
+}
+
+span.warning, small.warning {
+	display: block;
+	padding: 0.375rem 0.5625rem 0.5625rem;
+	margin-top: -1px;
+	margin-bottom: 1rem;
+	font-size: 0.75rem;
+	font-weight: normal;
+	font-style: italic;
+	background: #FFDD33;
+	color: #333;
+}
